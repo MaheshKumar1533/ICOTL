@@ -3,8 +3,9 @@
     width : 100px;
     position: fixed;
     bottom : 15px;
-    right : 25px;
+    right : 15px;
     background-color: yellow;
     color:blue;
     text-decoration: none;
+    border-radius: 5px;
 }
