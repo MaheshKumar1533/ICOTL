@@ -1,0 +1,10 @@
+.contactUs{
+    padding : 5px 20px;
+    width : 100px;
+    position: fixed;
+    bottom : 15px;
+    right : 25px;
+    background-color: yellow;
+    color:blue;
+    text-decoration: none;
+}

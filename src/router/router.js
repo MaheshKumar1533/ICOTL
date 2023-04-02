@@ -36,7 +36,7 @@ export const Router = () => {
             element: <Registration />
         },
         {
-            path: appConstants.CAOMMITTEE,
+            path: appConstants.ORGANIZING_COMMITTEE,
             element: <Committe />
         },
     ])

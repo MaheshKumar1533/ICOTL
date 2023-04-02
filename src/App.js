@@ -3,15 +3,15 @@ import './App.css';
 
 import {Router} from './router/router'
 import Navbar from './components/Navbar/navbar'
+import ContactUs from './components/Contact_Us/contactUs';
 import Footer from './components/Footer/footer'
 
 function App() {
   return (
     <div className="App">
-    <Navbar />
-      
-      <Router />
-      {/* <Footer /> */}
+        <Navbar />
+        <Router />
+        <ContactUs />
     </div>
   );
 }

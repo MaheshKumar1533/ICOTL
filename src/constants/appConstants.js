@@ -1,6 +1,6 @@
 export const appConstants = {
     HOME: "/",
-    IMP_DATES: "/important-dates",
+    IMPORTANT_DATES: "/important-dates",
     VENUE:  "/venue",
     CALL_FOR_PAPER: "/call-for-paper",
     SUBMISSION: "/sunmission",
