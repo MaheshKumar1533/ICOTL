@@ -1,0 +1,33 @@
+.committee{
+    min-height : 500px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.committeCard{
+    width : 300px;
+    height : 250px;
+    text-align: center;
+    border-radius: 10px;
+    /* border: 2px solid blue; */
+    background-color: #F4F4F4;
+    box-shadow: 1px 3px 5px 0px grey;
+}
+
+
+.designation{
+    font-size: 1.3rem !important;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #7DE5ED;
+}
+
+.personDetails{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

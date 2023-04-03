@@ -78,9 +78,14 @@ export default function Navbar() {
                         ))
                     }
                 </div>
-            </div>
         </div>
         <div className='lowerNavbar'>
+            <Typography 
+                    variant='h6'
+                    className='collegeTitle'
+                >
+                    Madanapalle Institute of Technology & Science
+            </Typography>
             <div className='lowerNavItemsList'>
             {
                     lowerNavItemsList.map((navItem, index) => (
@@ -95,6 +100,7 @@ export default function Navbar() {
                 }
             </div>
         </div>
+    </div>
     </div>
   )
 }
