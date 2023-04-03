@@ -52,14 +52,24 @@
 .upperNavItems{
     margin : 5px 45px 0;
     color: white;
+    font-weight: 450 !important;
     text-decoration: none;
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 1.2rem;
 }
 
 .lowerNavbar{
     height : 40px;
     background-color: #e8f7ff;
+}
+
+.collegeTitle{
+    color: #006699;
+    /* background-color: red; */
+    display: inline;
+    position: relative;
+    top : 4px;
+    left : 300px;
 }
 
 .lowerNavItemsList{

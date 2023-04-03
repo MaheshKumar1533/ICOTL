@@ -61,7 +61,7 @@ export default function Navbar() {
                 variant='h3'
                 className='titleText'
             >
-                ICAST' 23
+                ICOTL' 23
             </Typography>
             <div className='upperNavItemsList'>
                 {
@@ -78,6 +78,12 @@ export default function Navbar() {
             </div>
         </div>
         <div className='lowerNavbar'>
+            <Typography 
+                    variant='h6'
+                    className='collegeTitle'
+                >
+                    Madanapalle Institute of Technology & Science
+            </Typography>
             <div className='lowerNavItemsList'>
             {
                     lowerNavItemsList.map((navItem, index) => (

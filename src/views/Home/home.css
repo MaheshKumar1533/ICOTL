@@ -23,7 +23,8 @@
 .line_1,
 .line_2,
 .line_3,
-.line_4 {
+.line_4,
+.line_5 {
   white-space: nowrap; /* keep text in one line */
   overflow: hidden; /* hide text behind the cursor */
   margin: 0.5rem auto;
