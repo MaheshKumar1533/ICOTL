@@ -1,10 +1,55 @@
 .contactUs{
     padding : 5px 20px;
-    width : 100px;
     position: fixed;
     bottom : 15px;
     right : 25px;
+}
+
+.contactUs .contactUsBtn{
+    width : 140px;
+    background-image: linear-gradient(to right , #c9ab01, #ff9b19) !important;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.contactUsBody{
+    display: none;
+    transition:all 0.5s;
+}
+.contactUsBody.active{
+    position: fixed;
+    bottom : 50px;
+    right : 25px;
+    width: 350px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right , #c9ab01, #ff9b19);
+    padding: 20px;
+    transition:all 0.5s;
+}
+
+
+.contactUsDetails{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    align-content:center;
+    text-align: center;
+}
+
+.contactUsName{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    right : 15px;
     background-color: yellow;
     color:blue;
     text-decoration: none;
+    border-radius: 5px;
 }

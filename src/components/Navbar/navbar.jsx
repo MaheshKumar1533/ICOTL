@@ -55,29 +55,37 @@ export default function Navbar() {
   return (
     <div className='navbar'>
         <div className='upperNavbar'>
-            <img className='mits_logo' src={mits_logo} />
-            <img className='ieee_logo' src={ieee_logo} />
-            <Typography 
-                variant='h3'
+            <div>
+                <img className='mits_logo' src={mits_logo} />
+            </div>
+            {/* <img className='ieee_logo' src={ieee_logo} /> */}
+            <label 
                 className='titleText'
             >
                 ICAST' 23
-            </Typography>
-            <div className='upperNavItemsList'>
-                {
-                    upperNavItemsList.map((navItem, index) => (
-                        <Link
-                            to={navItem.path}
-                            key={index}
-                            className={navItem.className}
-                        >
-                            {navItem.name}
-                        </Link>
-                    ))
-                }
-            </div>
+            </label>
+            <div>
+                <div className='upperNavItemsList'>
+                    {
+                        upperNavItemsList.map((navItem, index) => (
+                            <Link
+                                to={navItem.path}
+                                key={index}
+                                className={navItem.className}
+                            >
+                                {navItem.name}
+                            </Link>
+                        ))
+                    }
+                </div>
         </div>
         <div className='lowerNavbar'>
+            <Typography 
+                    variant='h6'
+                    className='collegeTitle'
+                >
+                    Madanapalle Institute of Technology & Science
+            </Typography>
             <div className='lowerNavItemsList'>
             {
                     lowerNavItemsList.map((navItem, index) => (
@@ -92,6 +100,7 @@ export default function Navbar() {
                 }
             </div>
         </div>
+    </div>
     </div>
   )
 }
