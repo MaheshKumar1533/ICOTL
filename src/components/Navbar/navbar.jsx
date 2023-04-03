@@ -55,26 +55,29 @@ export default function Navbar() {
   return (
     <div className='navbar'>
         <div className='upperNavbar'>
-            <img className='mits_logo' src={mits_logo} />
-            <img className='ieee_logo' src={ieee_logo} />
-            <Typography 
-                variant='h3'
+            <div>
+                <img className='mits_logo' src={mits_logo} />
+            </div>
+            {/* <img className='ieee_logo' src={ieee_logo} /> */}
+            <label 
                 className='titleText'
             >
                 ICAST' 23
-            </Typography>
-            <div className='upperNavItemsList'>
-                {
-                    upperNavItemsList.map((navItem, index) => (
-                        <Link
-                            to={navItem.path}
-                            key={index}
-                            className={navItem.className}
-                        >
-                            {navItem.name}
-                        </Link>
-                    ))
-                }
+            </label>
+            <div>
+                <div className='upperNavItemsList'>
+                    {
+                        upperNavItemsList.map((navItem, index) => (
+                            <Link
+                                to={navItem.path}
+                                key={index}
+                                className={navItem.className}
+                            >
+                                {navItem.name}
+                            </Link>
+                        ))
+                    }
+                </div>
             </div>
         </div>
         <div className='lowerNavbar'>
