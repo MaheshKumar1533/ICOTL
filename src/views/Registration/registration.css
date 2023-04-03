@@ -1,0 +1,11 @@
+.registrationBody{
+    margin: 50px auto;
+    width: 50%;
+}
+
+@media screen and (max-width:500px) {
+    .registrationBody{
+        margin: 0 !important;
+        width: 100%;
+    }
+}
