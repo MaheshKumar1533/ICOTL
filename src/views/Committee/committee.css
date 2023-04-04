@@ -2,8 +2,9 @@
     min-height : 500px;
     padding: 30px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .committeCard{
@@ -11,6 +12,7 @@
     height : 250px;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 30px;
     /* border: 2px solid blue; */
     background-color: #F4F4F4;
     box-shadow: 1px 3px 5px 0px grey;
