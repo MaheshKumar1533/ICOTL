@@ -3,6 +3,7 @@
     position: fixed;
     bottom : 15px;
     right : 25px;
+    z-index: 4;
 }
 
 .contactUs .contactUsBtn{
@@ -52,4 +53,11 @@
     color:blue;
     text-decoration: none;
     border-radius: 5px;
+}
+
+@media screen and (max-width:550px) {
+    .contactUs{
+        right: -7px !important;
+        z-index: 4;
+    }
 }
