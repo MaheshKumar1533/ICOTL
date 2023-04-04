@@ -1,20 +1,37 @@
 .navbar{
-    height : 100px;
     box-shadow: 0 0.5px 8px 1px #006699;
+    width: 100%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .upperNavbar{
+    padding-right: 10px;
     background-image:linear-gradient(30deg , #c36800 ,#e17800, #ff8800);
     height : 60px;
     display: grid;
-    grid-template-columns: 15% 20% 60%;
+    grid-template-columns: 25% 25% 50%;
     justify-content: center;
+    transition: all .5s;
+    width: 100%;
+
 }
 
 .mits_logo{
     width: 80px;
     height : 80px;
-    margin: 7px 0px 5px 30px;
+    margin: 7px 0px 5px 10px;
     border-radius: 50px;
     box-shadow: 0px 0px 1px 1px #b7b7b7;
     border: 5px solid white;
@@ -31,7 +48,7 @@
 }
 
 .titleText{
-    color: rgb(0, 0, 254);
+    color: #0020b0;
     font-size: 35px;
     font-weight: bold;
     margin-top: 10px;
@@ -40,8 +57,9 @@
 .upperNavItemsList{
     display: flex;
     justify-content: right;
-    gap: 20px;
+    gap: 10px;
     margin-top: 15px;
+    /* flex-wrap: wrap; */
 }
 
 .upperNavItems{
@@ -49,45 +67,231 @@
     font-weight: 450 !important;
     text-decoration: none;
     font-size: 1.2rem;
+    border-radius: 20px;
+    min-width: 150px;
+    height: 30px;
+    text-align: center;
+}
+.upperNavItems_active{
+    color: white;
+    font-weight: 450 !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #0020b0 !important;
+    border-radius: 20px;
+    min-width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.lowerNavbar{
+    padding-right: 10px;
+    padding-bottom: 5px;
+    height : 45px;
+    background-color: #fff2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .5s;
+    width: 100%;
+
+}
+
+.collegeTitle{
+    color: #0020b0;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.lowerNavItemsList{
+    height : 32px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5px;
+    gap: 20px;
+}
+
+.lowerNavItems{
+    text-align: center;
+    background-color: #a7b7fd;
+    font-weight: 350 !important;
+    color: #1900ff;
+    font-weight: 450 !important;
+    text-decoration: none;
+    font-size: 1.2rem;
     border: 2px solid #1900ff;
     border-radius: 20px;
     width: 150px;
     height: 28px;
+    font-weight: 500 !important;
+}
+.lowerNavItems_active{
     text-align: center;
-}
-
-.lowerNavbar{
-    height : 40px;
-    background-color: #e8f7ff;
-}
-
-.collegeTitle{
-    color: #006699;
-    /* background-color: red; */
-    display: inline;
-    position: relative;
-    top : 4px;
-    left : 300px;
-}
-
-.lowerNavItemsList{
-    float: right;
-    width : 570px;
-    height : 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.lowerNavItems{
-    margin : 7px 40px 0 ;
-    text-align: center;
-    padding: 0px 10px 3px;
-    background-color: #0c72a5;
+    background-color: #1900ff;
     font-weight: 350 !important;
-    color: white;
+    color: #ffffff;
+    font-weight: 450 !important;
     text-decoration: none;
-    font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    font-weight: 500 !important;
+    padding: 3px;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 900px){
+    .upperNavbar{
+        display: grid;
+        grid-template-columns: 10% 30% 60%;
+    }
+
+    .mits_logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .collegeTitle{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 900px){
+    .collegeTitle{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .mits_logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .upperNavbar{
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+    }
+
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+    
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 28px;
+        height: 4px;
+        background-color: #1900ff;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    
+    .change .bar1 {
+        transform: translate(0, 8px) rotate(-45deg);
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        transform: translate(0, -8px) rotate(45deg);
+    }
+
+    .upperNavItemsList{
+        display: none;
+    }
+
+    .lowerNavItemsList{
+        display: none;
+    }
+
+    .lowerNavbar.open{
+        height: 80px;
+        padding-bottom: 5px;
+    }
+
+    .lowerNavbar.open .lowerNavItemsList{
+        display: flex;
+    }
+
+    .upperNavbar.open {
+        height: 210px;
+    }
+    
+    .upperNavbar.open .upperNavItemsList{
+        display: grid;
+        position: absolute;
+        left: 40%;
+        top: 40px;
+    }
+
+    .lowerNavbar{
+        display: grid;
+        place-content: center;
+        justify-items: center;
+    }
+
+    .dume{
+        display: none;
+    }
+
+    .collegeTitle{
+        font-size: 21px;
+    }
+
+    .container{
+        visibility: visible;
+    }
+
+     .lowerNavbar.open .collegeTitle{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .upperNavbar{
+        display: grid;
+        grid-template-columns: 35% 45% 20%;
+    }
+    
+    .collegeTitle{
+        font-size: 20px;
+    }
+
+     .lowerNavbar.open .lowerNavItemsList{
+        display: grid;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .lowerNavbar{
+        height: 65px;
+    }
+
+     .lowerNavbar.open{
+        height: 200px;
+        padding-bottom: 5px;
+    }
+
+    .lowerNavbar.open .collegeTitle{
+        margin-top: -80px;
+    }
+
+    .upperNavbar.open .upperNavItemsList{
+        display: grid;
+        position: absolute;
+        left: 32%;
+        top: 40px;
+    }
 }

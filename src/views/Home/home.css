@@ -1,10 +1,25 @@
-.BgImgDiv{
-    background-color: #5b8397 !important;
+
+.BgImgDiv {
+  background-color: #000000 !important;
+  position: relative;
+  font-family: Arial;
+  opacity: 1;
 }
 
-.homeBgImg{
-    width: 100%;
-    opacity: 0.4;
+.homeImg{
+  width: 100%;
+  min-height: 550px;
+  opacity: .5;
+}
+
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
 
 .cardTitle{
@@ -19,30 +34,44 @@
     line-height: 25px;
     text-align: justify;
 }
-.typewriter{
-    position: relative;
-    bottom : 600px;
-    /* left : 100px; */
-    text-align: center;
-    /* width : 1000px; */
-    margin: 0 auto;
+
+.text-block p{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    font-family: "Major Mono Display", monospace;
 }
 
-.typewriter h1{
-    font-size: 3rem;
-    color: white;
+
+
+@media screen and (max-width:550px) {
+  .homeImg{
+    width: 100%;
+    min-height: 400px !important;
+  }
+
+  .text-block p{
+    font-size:40px
+  }
+
+  .HomePageCard{
+    margin: 0 5px;
+  }
+
+  .cardText{
+  padding: 0 10px;
+  }
 }
-.line_1,
+/* .line_1,
 .line_2,
 .line_3,
 .line_4,
 .line_5 {
-  white-space: nowrap; /* keep text in one line */
-  overflow: hidden; /* hide text behind the cursor */
+  white-space: nowrap;
+  overflow: hidden; 
   margin: 0.5rem auto;
-  font-family: "Major Mono Display", monospace;
   font-weight: bold;
-}
+} */
 
 /* 
 .line_1 {

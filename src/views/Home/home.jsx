@@ -7,10 +7,17 @@ import CardContent from "@mui/material/CardContent";
 export default function Home() {
   return (
     <div className="homeDiv">
-      <div className="BgImgDiv">
-        <img className="homeBgImg" src={homeBgImg} />
+      <div class="BgImgDiv">
+        <img src={homeBgImg} alt="Nature" className='homeImg' />
+        <div class="text-block">
+          <p className="line_1">The 1st</p>
+          <p className="line_2">International Conference</p>
+          <p className="line_3"> on </p>
+          <p className="line_4">Optimization Techniques for Learning.</p>
+          <p className="line_4">(ICOTL 2023)</p>
+        </div>
       </div>
-      <div>
+      <div className='HomePageCard'>
         <Card
           sx={{
             maxWidth: 1000,
@@ -65,15 +72,6 @@ export default function Home() {
           </CardContent>
         </Card>
       </div>
-      <div class="typewriter">
-        <h1 className='line_1'>The 1st</h1>
-        <h1 className='line_2'>International Conference</h1>
-        <h1 className='line_3'> on </h1>
-        <h1 className='line_4'>Optimization Techniques for Learning.</h1>
-        <h1 className='line_4'>(ICOTL 2023)</h1>
-          
-      </div>
-      Home
     </div>
   );
 }
