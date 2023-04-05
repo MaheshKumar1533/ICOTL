@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import mitsImg from '../../assets/mits_img_2.jpg'
 import homeBgImg from '../../assets/conf_img.png'
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -7,8 +8,8 @@ import CardContent from "@mui/material/CardContent";
 export default function Home() {
   return (
     <div className="homeDiv">
-      <div class="BgImgDiv">
-        <img src={homeBgImg} alt="Nature" className='homeImg' />
+      <div class="HomeBgImgDiv">
+        <img src={mitsImg} alt="Nature" className='homeImg' />
         <div class="text-block">
           <p className="line_1">The 1st</p>
           <p className="line_2">International Conference</p>

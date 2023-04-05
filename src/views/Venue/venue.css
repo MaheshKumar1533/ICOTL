@@ -15,7 +15,7 @@
 .venueDetailsDiv .venueTitle {
   font-size: 30px;
   font-weight: 600;
-  padding: 10px 0px !important;
+  padding: 20px 0px 10px !important;
   margin: 0px;
   color: aliceblue;
   border-top: 2px solid aliceblue;
@@ -29,15 +29,19 @@
   color: aliceblue;
 }
 
-.BgImgDiv {
-  background-color: #5b8397;
+span{
+  line-height: 25px;
+}
+
+.VenueBgImgDiv {
+  background-color: #283840;
   position: relative;
 }
 
 .venueBgImg {
   width: 100%;
-  opacity: 0.4;
-  height: 635px;
+  opacity: 0.5;
+  height: 685px;
 }
 
 .venueDetailsBody {

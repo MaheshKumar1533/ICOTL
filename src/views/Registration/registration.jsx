@@ -7,6 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import PageNote from '../pageNote.jsx/pageNote';
 import './registration.css'
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -73,7 +74,12 @@ const registrationDetails = [
 export default function Registration() {
   return (
     <div className="registrationBody">
-      <TableContainer component={Paper} sx={{ maxHeight: 620 }}>
+
+      <PageNote 
+        note="This page is under Preparation."
+      />
+
+      {/* <TableContainer component={Paper} sx={{ maxHeight: 620 }}>
         <Table stickyHeader aria-label="sticky table" sx={{ minWidth: 700 }}>
           <TableHead>
             <StyledTableCell></StyledTableCell>
@@ -107,7 +113,7 @@ export default function Registration() {
             </StyledTableRow>
           </TableBody>
         </Table>
-      </TableContainer>
+      </TableContainer> */}
     </div>
   );
 }

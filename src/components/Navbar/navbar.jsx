@@ -39,7 +39,7 @@ export default function Navbar() {
       className: "lowerNavItems",
     },
     {
-      name: "Call For Paper",
+      name: "Call for Paper",
       path: `${appConstants.CALL_FOR_PAPER}`,
       className: "lowerNavItems",
     },
@@ -61,9 +61,9 @@ export default function Navbar() {
   return (
     <div className="navbar" id="navbar">
       <div className="upperNavbar" id="upperNavbar">
-        <div>
+        {/* <div> */}
           <img className="mits_logo" src={mits_logo} />
-        </div>
+        {/* </div> */}
         {/* <img className='ieee_logo' src={ieee_logo} /> */}
         <label className="titleText">ICAST' 23</label>
         <div>

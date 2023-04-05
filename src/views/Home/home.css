@@ -1,6 +1,6 @@
 
-.BgImgDiv {
-  background-color: #000000 !important;
+.HomeBgImgDiv {
+  background-color: #603401 !important;
   position: relative;
   font-family: Arial;
   opacity: 1;
@@ -9,7 +9,8 @@
 .homeImg{
   width: 100%;
   min-height: 550px;
-  opacity: .5;
+  max-height: 685px;
+  opacity: 0.5;
 }
 
 
