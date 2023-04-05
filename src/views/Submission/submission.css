@@ -1,6 +1,6 @@
 .submission{
-    width : 900px;
-    margin: 20px auto;
+    width : 70%;
+    margin: 30px auto;
     min-height: 800px;
 }
 
@@ -8,4 +8,10 @@
 .submissionNote{
     margin : 20px 0 !important;
     text-align: justify;
+}
+
+@media screen and (max-width:500px) {
+    .submission{
+        width:96%
+    }
 }

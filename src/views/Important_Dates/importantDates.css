@@ -1,112 +1,143 @@
-.impDates{
-    box-sizing: border-box;
-    min-width: 700px;
-    max-width : 700px;
-    height : 650px;
-    background-color: #006699;
-    background-image: linear-gradient(-100deg,#449bc7, #0d5072 );
-    margin : 20px auto;
-    position: relative;
-    border-radius: 10px;
-padding: 20px;
+.impDates {
+  box-sizing: border-box;
+  max-width: 95%;
+  overflow-y: scroll;
+  height: 650px;
+  background-image: linear-gradient(-120deg, #d49751, #de7700);
+  margin: 20px auto;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px 0 0 90px;
 }
 
-.impDatesTitle{
-    position: absolute;
-    background-color: #1e80b1;
-    color: white;
-    top : 0;
-    left : 290px;
-    border: 2px solid white;
-    padding : 10px;
+.impDatesTitle {
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  top: 280px;
+  border: 1px solid rgb(9, 0, 94);
+  box-shadow: 0 0 4px 0px rgb(9, 0, 94);
+  padding: 10px 20px;
+  z-index: 3;
+  width: 150px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 70px;
 }
 
-.timeLine{
-    width: 5px;
-    height: 650px;
-    margin: 0px auto 0;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* gap: 40px; */
-    /* border: 2px solid black; */
+.timeLine {
+  width: 1100px;
+  height: 10px;
+  box-shadow: 0 0 2px 1px white;
+  background-color: white;
+  position: relative;
+  top: 295px;
+  left: 50px;
 }
 
-.pointOfTime{
-    width : 20px;
-    height: 20px;
-    background-color: rgb(176, 196, 206);
-    border-radius: 50%;
-    margin-left: -8px;
-    /* position: absolute;
-    top: 60px;
-    left: 290px; */
+.pointOfTime {
+  z-index: 5 !important;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -5px;
+  box-shadow: 0 0 2px 1px white;
+  position: absolute;
 }
 
-.rightTimebar{
-    width : 260px;
-    height : 10px;
-    background-color: rgb(176, 196, 206);
-    margin: 5px 18px;
+.pointOfTime1 {
+  left: 275px;
 }
 
-.leftTimebar{
-    width : 260px;
-    height : 10px;
-    background-color: rgb(176, 196, 206);
-    margin: 5px -250px;
+.pointOfTime2 {
+  left: 500px;
 }
 
-h3{
-    color : white
+.pointOfTime3 {
+  left: 900px;
 }
 
-.date1{
-    position: absolute;
-    top:90px;
-    left : 380px;
+.pointOfTime4 {
+  left: 900px;
 }
 
-.date2{
-    position: absolute;
-    top:225px;
-    left : 110px;
+.upTimebar {
+  width: 3px;
+  height: 145px;
+  background-color: #fff;
+  box-shadow: 0 0 2px 1px white;
+  margin-top: -141px;
+  margin-left: 8px;
 }
 
-.date3{
-    position: absolute;
-    top:360px;
-    left : 380px;
+.downTimebar {
+  width: 3px;
+  height: 150px;
+  margin-top: 18px;
+  margin-left: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px 1px white;
 }
 
-.date4{
-    position: absolute;
-    top:490px;
-    left : 120px;
+h3 {
+  color: rgb(9, 0, 94);
 }
 
-
-.date5{
-    position: absolute;
-    top:130px;
-    left : 380px;
+.date {
+  text-align: center;
+  padding: 15px 20px;
+  border: 1px solid rgb(9, 0, 94);
+  box-shadow: 0 0 4px 0px rgb(9, 0, 94);
+  position: absolute;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
-.date6{
-    position: absolute;
-    top:265px;
-    left : 170px;
+.date1 {
+  top: 90px;
+  left: 300px;
 }
 
-.date7{
-    position: absolute;
-    top:400px;
-    left : 380px;
+.date2 {
+  top: 480px;
+  left: 525px;
 }
 
-.date8{
-    position: absolute;
-    top:530px;
-    left : 150px;
+.date3 {
+  top: 90px;
+  left: 900px;
+}
+
+.date4 {
+  top: 480px;
+  left: 930px;
+}
+
+@media screen and (max-width: 500px) {
+  .impDates {
+    padding: 15px !important;
+    max-width: 98%;
+  }
+
+  .date1 {
+    top: 84px;
+    left: 207px;
+  }
+
+  .date2 {
+    top: 475px;
+    left: 424px;
+  }
+
+  .date3 {
+    top: 90px;
+    left: 825px;
+  }
+  .date4 {
+    top: 472px;
+    left: 825px;
+  }
 }

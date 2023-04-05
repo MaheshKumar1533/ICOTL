@@ -1,15 +1,16 @@
 
-.BgImgDiv {
+.HomeBgImgDiv {
   background-color: #000000 !important;
   position: relative;
   font-family: Arial;
-  opacity: 1;
 }
 
 .homeImg{
   width: 100%;
-  min-height: 550px;
-  opacity: .5;
+  min-height: 530px;
+  max-height: 640px;
+  opacity: 0.4;
+  object-fit: fill;
 }
 
 
@@ -41,8 +42,6 @@
     color: white;
     font-family: "Major Mono Display", monospace;
 }
-
-
 
 @media screen and (max-width:550px) {
   .homeImg{
