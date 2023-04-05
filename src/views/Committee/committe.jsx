@@ -2,7 +2,7 @@ import React from 'react'
 import { Typography } from '@mui/material'
 import './committee.css'
 import Chair from './chair'
-import { HonoraryChair, GeneralChair, PCChair, PCCoChair, SpecialSessionChair, PublicityAndIndustryAllianceChair, PublicationChair, PublicationCoChair, LocalOrganizingFinanceChair, AdvisoryCommittee, RegistrationChair, SteeringCommitteeMembers  } from './members'
+import { HonoraryChair, GeneralChair, GeneralCoChair, PCChair, PCCoChair, SpecialSessionChair, PublicityAndIndustryAllianceChair, PublicationChair, PublicationCoChair, LocalOrganizingFinanceChair, AdvisoryCommittee, RegistrationChair, SteeringCommitteeMembers  } from './members'
 
 
 export default function Committe() {
@@ -17,6 +17,11 @@ export default function Committe() {
         label='General Chair'
         defaultExpanded={true}
         list={GeneralChair}
+      />
+      <Chair
+        label='General Co-Chair'
+        defaultExpanded={true}
+        list={GeneralCoChair}
       />
       <Chair
         label='PC Chair'

@@ -16,16 +16,18 @@ export const GeneralChair = [
   name : "Goutam Chakraborty",
   address : "MITS, India"
 },
-{
-  designation : "General Chair",
-  name : "Rung-Ching Chen",
-  address : "Chaoyang University of Technology, Taiwan"
-},
-{
-  designation : "General Chair",
-  name : "Qiangfu Zhao",
-  address : "University of Aizu, Japan"
-},
+]
+export const GeneralCoChair = [
+  {
+    designation : "General Chair",
+    name : "Rung-Ching Chen",
+    address : "Chaoyang University of Technology, Taiwan"
+  },
+  {
+    designation : "General Chair",
+    name : "Qiangfu Zhao",
+    address : "University of Aizu, Japan"
+  },
 ]
 export const PCChair = [
 {
@@ -131,6 +133,11 @@ export const RegistrationChair  = [
 },
 ]
 export const SteeringCommitteeMembers = [
+  {
+    designation : "General Chair",
+    name : "Goutam Chakraborty",
+    address : "MITS, India"
+  },
 {
   designation : "Steering Committee Members ",
   name : "Robert Kozma",

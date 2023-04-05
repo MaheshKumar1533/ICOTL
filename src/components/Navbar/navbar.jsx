@@ -16,13 +16,13 @@ export default function Navbar() {
       className: "upperNavItems",
     },
     {
-      name: "Venue",
-      path: `${appConstants.VENUE}`,
+      name: "Important Dates",
+      path: `${appConstants.IMPORTANT_DATES}`,
       className: "upperNavItems",
     },
     {
-      name: "Important Dates",
-      path: `${appConstants.IMPORTANT_DATES}`,
+      name: "Venue",
+      path: `${appConstants.VENUE}`,
       className: "upperNavItems",
     },
     {
@@ -34,13 +34,18 @@ export default function Navbar() {
 
   const lowerNavItemsList = [
     {
-      name: "Submission",
-      path: `${appConstants.SUBMISSION}`,
+      name: "Program",
+      path: `${appConstants.PROGRAM}`,
       className: "lowerNavItems",
     },
     {
       name: "Call for Paper",
       path: `${appConstants.CALL_FOR_PAPER}`,
+      className: "lowerNavItems",
+    },
+    {
+      name: "Submission",
+      path: `${appConstants.SUBMISSION}`,
       className: "lowerNavItems",
     },
 
@@ -65,7 +70,7 @@ export default function Navbar() {
           <img className="mits_logo" src={mits_logo} />
         {/* </div> */}
         {/* <img className='ieee_logo' src={ieee_logo} /> */}
-        <label className="titleText">ICAST' 23</label>
+        <label className="titleText">ICOTL 2k23</label>
         <div>
           <div className="upperNavItemsList">
             {upperNavItemsList.map((navItem, index) => (
@@ -92,9 +97,9 @@ export default function Navbar() {
       </div>
       <div className="lowerNavbar" id="lowerNavbar">
         <div className="dume"></div>
-        <label className="collegeTitle">
+        {/* <label className="collegeTitle">
           Madanapalle Institute of Technology & Science
-        </label>
+        </label> */}
         <div className="lowerNavItemsList" id="lowerNavItemsList">
           {lowerNavItemsList.map((navItem, index) => (
             <NavLink

@@ -22,6 +22,7 @@
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+  line-height: 70px;
 }
 
 .cardTitle{
@@ -44,6 +45,11 @@
     font-family: "Major Mono Display", monospace;
 }
 
+.mainLetter{
+  font-size: 80px;
+  color: #e17800;
+}
+
 @media screen and (max-width:550px) {
   .homeImg{
     width: 100%;
@@ -51,7 +57,8 @@
   }
 
   .text-block p{
-    font-size:40px
+    font-size:30px;
+    line-height: 40px;
   }
 
   .HomePageCard{
@@ -60,6 +67,11 @@
 
   .cardText{
   padding: 0 10px;
+  }
+
+  .mainLetter{
+    font-size: 35px;
+    color: #e17800;
   }
 }
 /* .line_1,

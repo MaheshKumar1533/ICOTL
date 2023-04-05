@@ -27,7 +27,7 @@
 }
 
 .timeLine {
-  width: 1100px;
+  width: 1200px;
   height: 10px;
   box-shadow: 0 0 2px 1px white;
   background-color: white;
@@ -37,7 +37,7 @@
 }
 
 .pointOfTime {
-  z-index: 5 !important;
+  /* z-index: 1 !important; */
   width: 20px;
   height: 20px;
   background-color: white;
@@ -48,33 +48,37 @@
 }
 
 .pointOfTime1 {
-  left: 275px;
+  left: 75px;
 }
 
 .pointOfTime2 {
-  left: 500px;
+  left: 300px;
 }
 
 .pointOfTime3 {
-  left: 900px;
+  left: 550px;
 }
 
 .pointOfTime4 {
-  left: 900px;
+  left: 850px;
+}
+
+.pointOfTime5{
+  left:1050px;
 }
 
 .upTimebar {
   width: 3px;
-  height: 145px;
+  height: 130px;
   background-color: #fff;
   box-shadow: 0 0 2px 1px white;
-  margin-top: -141px;
+  margin-top: -125px;
   margin-left: 8px;
 }
 
 .downTimebar {
   width: 3px;
-  height: 150px;
+  height: 130px;
   margin-top: 18px;
   margin-left: 8px;
   background-color: #ffffff;
@@ -97,47 +101,55 @@ h3 {
 }
 
 .date1 {
-  top: 90px;
-  left: 300px;
+  top: 70px;
+  left: 80px;
 }
 
 .date2 {
-  top: 480px;
-  left: 525px;
+  top: 460px;
+  left: 295px;
 }
 
 .date3 {
-  top: 90px;
-  left: 900px;
+  top: 105px;
+  left: 550px;
 }
 
 .date4 {
-  top: 480px;
-  left: 930px;
+  top: 460px;
+  left: 850px;
+}
+.date5{
+  top : 105px;
+  left: 1050px;
 }
 
 @media screen and (max-width: 500px) {
   .impDates {
-    padding: 15px !important;
+    padding: 15px 80px 15px 40px!important;
     max-width: 98%;
   }
 
   .date1 {
-    top: 84px;
-    left: 207px;
+    top: 64px;
+    left: 27px;
   }
 
   .date2 {
-    top: 475px;
-    left: 424px;
+    top: 455px;
+    left: 244px;
   }
 
   .date3 {
-    top: 90px;
-    left: 825px;
+    top: 100px;
+    left: 500px;
   }
   .date4 {
-    top: 472px;
-    left: 825px;
+    top: 455px;
+    left: 795px;
+  }
+
+  .date5{
+    left: 990px
   }
 }

@@ -29,10 +29,10 @@ export default function ContactUs() {
             Madanapalle Institute of Technology & Science <br /> Madanapalle, AP
             India,
           </span>
-            <div style={{ display: "flex", alignItems: "center", gap: 10 ,marginTop:20,marginBottom:5}}>
+            {/* <div style={{ display: "flex", alignItems: "center", gap: 10 ,marginTop:20,marginBottom:5}}>
               <PhoneIcon />
               <span>9894780297</span>
-            </div>
+            </div> */}
             <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
               <EmailIcon />
               <span>icotl23@mits.ac.in</span>

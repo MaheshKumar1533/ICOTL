@@ -4,6 +4,7 @@ import { appConstants } from '../constants/appConstants'
 import Home from "../views/Home/home";
 import CallForPaper from "../views/Call_For_Paper/callForPaper"
 import Committe from "../views/Committee/committe";
+import Program from "../views/Program/program";
 import ImportantDates from "../views/Important_Dates/importantDates";
 import Registration from "../views/Registration/registration";
 import Submission from "../views/Submission/submission";
@@ -22,6 +23,10 @@ export const Router = () => {
         {
             path: appConstants.IMPORTANT_DATES,
             element: <ImportantDates />
+        },
+        {
+            path: appConstants.PROGRAM,
+            element: <Program />
         },
         {
             path: appConstants.CALL_FOR_PAPER,

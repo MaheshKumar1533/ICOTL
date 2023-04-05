@@ -51,6 +51,8 @@ body {
     font-size: 35px !important;
     font-weight: bold;
     margin-top: 15px;
+    position: relative;
+    right: 200px;
 }
 
 .upperNavItemsList{
@@ -113,7 +115,7 @@ body {
     align-items: center;
     margin-top: 5px;
     margin-right: 30px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .lowerNavItems{
@@ -221,8 +223,9 @@ body {
     }
 
     .lowerNavbar.open{
-        height: 80px;
+        height: 180px;
         padding-bottom: 5px;
+        padding-left:20px;
     }
 
     .lowerNavbar.open .lowerNavItemsList{
@@ -277,14 +280,15 @@ body {
         display: grid;
         gap: 10px;
         margin-left: 20px;
+        height: 135px;
     }
 
     .lowerNavbar{
-        height: 65px;
+
     }
 
      .lowerNavbar.open{
-        height: 200px;
+        /* height: 200px; */
         padding-bottom: 5px;
     }
 
@@ -297,5 +301,10 @@ body {
         position: absolute;
         left: 27%;
         top: 40px;
+    }
+
+    .titleText{
+        font-size: 30px !important;
+        right: 0px;
     }
 }
