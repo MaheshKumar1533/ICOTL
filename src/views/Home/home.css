@@ -8,7 +8,8 @@
 .homeImg{
   width: 100%;
   min-height: 530px;
-  max-height: 640px;
+  height: 90%;
+  max-height: 680px;
   opacity: 0.4;
   object-fit: fill;
 }

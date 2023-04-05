@@ -77,6 +77,7 @@ export default function Navbar() {
                     ? "upperNavItems_active"
                     : "upperNavItems"
                 }
+                onClick={handleMenuIcon}
               >
                 {navItem.name}
               </NavLink>
@@ -104,6 +105,7 @@ export default function Navbar() {
                   ? "lowerNavItems_active"
                   : "lowerNavItems"
               }
+              onClick={handleMenuIcon}
             >
               {navItem.name}
             </NavLink>
