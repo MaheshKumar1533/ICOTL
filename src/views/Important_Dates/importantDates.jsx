@@ -25,12 +25,13 @@ export default function ImportantDates() {
 
       <div className='date date1'>
         <h3 className=''>Start</h3>  
-        <p>Author will be able to submit his/her paper.</p>
+        <p>Paper Submisson opens </p>
         <h3 className=''>1<sup>st</sup> May 2023</h3>
       </div>
 
       <div className='date date2'>
         <h3 className=''>Manuscript Submission</h3>  
+        <p>Paper Submisson closes </p>
         <h3 className=''>30<sup>th</sup> July 2023</h3>
       </div>
 
@@ -49,7 +50,7 @@ export default function ImportantDates() {
         <h3 className=''>Date of Conference </h3>  
         <h3 className=''>7<sup>th</sup> - 8<sup>th</sup> October 2023</h3>
       </div>
-      
+
     </div>
   )
 }

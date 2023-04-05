@@ -7,5 +7,7 @@ export const appConstants = {
     SUBMISSION: "/sunmission",
     REGISTRATION: "/registration",
     ORGANIZING_COMMITTEE: "/organizing-committee",
-    CONTACT_US: "/contact-us"
+    CONTACT_US: "/contact-us",
+    ACCESS: "/access",
+    VISA: "/visa"
 }

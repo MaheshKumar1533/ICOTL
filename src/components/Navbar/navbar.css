@@ -280,15 +280,11 @@ body {
         display: grid;
         gap: 10px;
         margin-left: 20px;
-        height: 135px;
-    }
-
-    .lowerNavbar{
-
+        height: 220px;
     }
 
      .lowerNavbar.open{
-        /* height: 200px; */
+        height: 250px;
         padding-bottom: 5px;
     }
 

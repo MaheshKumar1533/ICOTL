@@ -9,6 +9,8 @@ import ImportantDates from "../views/Important_Dates/importantDates";
 import Registration from "../views/Registration/registration";
 import Submission from "../views/Submission/submission";
 import Venue from "../views/Venue/venue";
+import Access from "../views/Access/access";
+import Visa from "../views/Visa/visa";
 
 export const Router = () => {
     return useRoutes([
@@ -43,6 +45,14 @@ export const Router = () => {
         {
             path: appConstants.ORGANIZING_COMMITTEE,
             element: <Committe />
+        },
+        {
+            path: appConstants.ACCESS,
+            element: <Access />
+        },
+        {
+            path: appConstants.VISA,
+            element: <Visa />
         },
     ])
 }

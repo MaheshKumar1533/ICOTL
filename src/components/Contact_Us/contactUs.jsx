@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import { appConstants } from '../../constants/appConstants'
 import { Button, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
@@ -7,16 +7,36 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import './contactUs.css'
 
 export default function ContactUs() {
+  useEffect(()=>{
+    document.addEventListener('click', handleClickOutside, true)
+  },[])
+
+  
   const handleContactUs = () => {
-      document.getElementById("contactUsBody")?.classList.toggle('active');
+    console.log("IN ")
+    document.getElementById("contactUsBody")?.classList.toggle('active');
   }
+
+  const handleClickOutside = (e) =>{
+    console.log("out")
+    if( document.getElementById("contactUsBody")?.classList.contains('active')){
+      handleContactUs();
+    }else{
+      
+      if( document.getElementById("contactUs").contains(e.target)){
+        console.log('in out')
+        handleContactUs();
+      }
+    }
+  }
+
   return (
     <div>
-      <div className="contactUs">
+      <div className="contactUs" id='contactUs'>
         <Button
           to={appConstants.CONTACT_US}
           className="contactUsBtn"
-          onClick={handleContactUs}
+          // onClick={handleContactUs}
         >
           Contact Us
         </Button>
@@ -33,7 +53,7 @@ export default function ContactUs() {
               <PhoneIcon />
               <span>9894780297</span>
             </div> */}
-            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10 , marginTop:"40px"}}>
               <EmailIcon />
               <span>icotl23@mits.ac.in</span>
             </div>

@@ -10,32 +10,32 @@ export default function Committe() {
     <div className='committee' >
       <Chair
         label='Honorary Chair'
-        defaultExpanded={true}
+        defaultExpanded={false}
         list={HonoraryChair}
       />
       <Chair
         label='General Chair'
-        defaultExpanded={true}
+        defaultExpanded={false}
         list={GeneralChair}
       />
       <Chair
         label='General Co-Chair'
-        defaultExpanded={true}
+        defaultExpanded={false}
         list={GeneralCoChair}
       />
       <Chair
         label='PC Chair'
-        defaultExpanded={true}
+        defaultExpanded={false}
         list={PCChair}
       />
       <Chair
         label='PC Co-Chair'
-        defaultExpanded={true}
+        defaultExpanded={false}
         list={PCCoChair}
       />
       <Chair
         label='Special Session Chair'
-        defaultExpanded={true}
+        defaultExpanded={false}
         list={SpecialSessionChair}
       />
       <Chair

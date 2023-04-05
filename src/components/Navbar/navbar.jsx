@@ -34,11 +34,6 @@ export default function Navbar() {
 
   const lowerNavItemsList = [
     {
-      name: "Program",
-      path: `${appConstants.PROGRAM}`,
-      className: "lowerNavItems",
-    },
-    {
       name: "Call for Paper",
       path: `${appConstants.CALL_FOR_PAPER}`,
       className: "lowerNavItems",
@@ -48,10 +43,25 @@ export default function Navbar() {
       path: `${appConstants.SUBMISSION}`,
       className: "lowerNavItems",
     },
-
+    
+    {
+      name: "Program",
+      path: `${appConstants.PROGRAM}`,
+      className: "lowerNavItems",
+    },
     {
       name: "Registration",
       path: `${appConstants.REGISTRATION}`,
+      className: "lowerNavItems",
+    },
+    {
+      name: "Access",
+      path: `${appConstants.ACCESS}`,
+      className: "lowerNavItems",
+    },
+    {
+      name: "Visa",
+      path: `${appConstants.VISA}`,
       className: "lowerNavItems",
     },
   ];
