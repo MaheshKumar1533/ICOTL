@@ -9,9 +9,19 @@
     margin : 20px 0 !important;
     text-align: justify;
 }
-
+.submissionNote1{
+    margin : 20px 0 !important;
+    text-align: justify;
+}
+.submissionLink{
+    color: blue;
+}
 @media screen and (max-width:500px) {
     .submission{
         width:96%
+    }
+
+    .submissionNote1{
+        text-align: start;
     }
 }

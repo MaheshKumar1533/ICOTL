@@ -16,13 +16,13 @@ export default function Navbar() {
       className: "upperNavItems",
     },
     {
-      name: "Venue",
-      path: `${appConstants.VENUE}`,
+      name: "Important Dates",
+      path: `${appConstants.IMPORTANT_DATES}`,
       className: "upperNavItems",
     },
     {
-      name: "Important Dates",
-      path: `${appConstants.IMPORTANT_DATES}`,
+      name: "Venue",
+      path: `${appConstants.VENUE}`,
       className: "upperNavItems",
     },
     {
@@ -34,19 +34,34 @@ export default function Navbar() {
 
   const lowerNavItemsList = [
     {
-      name: "Submission",
-      path: `${appConstants.SUBMISSION}`,
-      className: "lowerNavItems",
-    },
-    {
       name: "Call for Paper",
       path: `${appConstants.CALL_FOR_PAPER}`,
       className: "lowerNavItems",
     },
-
+    {
+      name: "Submission",
+      path: `${appConstants.SUBMISSION}`,
+      className: "lowerNavItems",
+    },
+    
+    {
+      name: "Program",
+      path: `${appConstants.PROGRAM}`,
+      className: "lowerNavItems",
+    },
     {
       name: "Registration",
       path: `${appConstants.REGISTRATION}`,
+      className: "lowerNavItems",
+    },
+    {
+      name: "Access",
+      path: `${appConstants.ACCESS}`,
+      className: "lowerNavItems",
+    },
+    {
+      name: "Visa",
+      path: `${appConstants.VISA}`,
       className: "lowerNavItems",
     },
   ];
@@ -59,51 +74,57 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar" id="navbar">
-      <div className="upperNavbar" id="upperNavbar">
-          <img className="mits_logo" src={mits_logo} />
-        {/* <img className='ieee_logo' src={ieee_logo} /> */}
-        <label className="titleText">ICAST' 23</label>
-        <div>
-          <div className="upperNavItemsList">
-            {upperNavItemsList.map((navItem, index) => (
+    <div>
+
+      <div className="navbar" id="navbar">
+        <div className="upperNavbar" id="upperNavbar">
+          <div className="upperNavBarLogo">
+            <img className="mits_logo" src={mits_logo} />
+            {/* <img className='ieee_logo' src={ieee_logo} /> */}
+            <label className="titleText">ICOTL 2k23</label>
+            <div></div>
+          </div>
+          <div>
+            <div className="upperNavItemsList">
+              {upperNavItemsList.map((navItem, index) => (
+                <NavLink
+                  to={navItem.path}
+                  key={index}
+                  className={
+                    pathname.pathname === navItem.path
+                      ? "upperNavItems_active"
+                      : "upperNavItems"
+                  }
+                  onClick={handleMenuIcon}
+                >
+                  {navItem.name}
+                </NavLink>
+              ))}
+            </div>
+            <div className="container" id="container" onClick={handleMenuIcon}>
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
+          </div>
+        </div>
+        <div className="lowerNavbar" id="lowerNavbar">
+          <div className="lowerNavItemsList" id="lowerNavItemsList">
+            {lowerNavItemsList.map((navItem, index) => (
               <NavLink
                 to={navItem.path}
                 key={index}
                 className={
                   pathname.pathname === navItem.path
-                    ? "upperNavItems_active"
-                    : "upperNavItems"
+                    ? "lowerNavItems_active"
+                    : "lowerNavItems"
                 }
+                onClick={handleMenuIcon}
               >
                 {navItem.name}
               </NavLink>
             ))}
           </div>
-          <div className="container" id="container" onClick={handleMenuIcon}>
-            <div className="bar1"></div>
-            <div className="bar2"></div>
-            <div className="bar3"></div>
-          </div>
-        </div>
-      </div>
-      <div className="lowerNavbar" id="lowerNavbar">
-        <div className="dume"></div>
-       
-        <div className="lowerNavItemsList" id="lowerNavItemsList">
-          {lowerNavItemsList.map((navItem, index) => (
-            <NavLink
-              to={navItem.path}
-              key={index}
-              className={
-                pathname.pathname === navItem.path
-                  ? "lowerNavItems_active"
-                  : "lowerNavItems"
-              }
-            >
-              {navItem.name}
-            </NavLink>
-          ))}
         </div>
       </div>
     </div>

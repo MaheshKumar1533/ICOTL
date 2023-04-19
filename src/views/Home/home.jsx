@@ -11,10 +11,12 @@ export default function Home() {
       <div class="HomeBgImgDiv">
         <img src={mitsImg} alt="Nature" className='homeImg' />
         <div class="text-block">
-          <p className="line_1">The 1st</p>
-          <p className="line_2">International Conference</p>
-          <p className="line_3"> on </p>
-          <p className="line_4">Optimization Techniques for Learning.</p>
+          <p className="line_1">The First <span className='mainLetter'>I</span>nternational <span className='mainLetter'>C</span>onference</p>
+
+          <p className="line_2"> on </p>
+
+          <p className="line_3"><span className='mainLetter'>O</span>ptimization <span className='mainLetter'>T</span>echniques for <span className='mainLetter'>L</span>earning.</p>
+          
           <p className="line_4">(ICOTL 2023)</p>
         </div>
       </div>

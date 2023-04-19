@@ -75,9 +75,7 @@ export default function Registration() {
   return (
     <div className="registrationBody">
 
-      <PageNote 
-        note="This page is under Preparation."
-      />
+      <PageNote />
 
       {/* <TableContainer component={Paper} sx={{ maxHeight: 620 }}>
         <Table stickyHeader aria-label="sticky table" sx={{ minWidth: 700 }}>
