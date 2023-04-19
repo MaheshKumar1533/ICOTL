@@ -61,9 +61,7 @@ export default function Navbar() {
   return (
     <div className="navbar" id="navbar">
       <div className="upperNavbar" id="upperNavbar">
-        {/* <div> */}
           <img className="mits_logo" src={mits_logo} />
-        {/* </div> */}
         {/* <img className='ieee_logo' src={ieee_logo} /> */}
         <label className="titleText">ICAST' 23</label>
         <div>
@@ -91,9 +89,7 @@ export default function Navbar() {
       </div>
       <div className="lowerNavbar" id="lowerNavbar">
         <div className="dume"></div>
-        <label className="collegeTitle">
-          Madanapalle Institute of Technology & Science
-        </label>
+       
         <div className="lowerNavItemsList" id="lowerNavItemsList">
           {lowerNavItemsList.map((navItem, index) => (
             <NavLink
