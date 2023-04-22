@@ -39,11 +39,16 @@ export default function Navbar() {
       className: "lowerNavItems",
     },
     {
+      name: "Call For Special Sesssion",
+      path: `${appConstants.CALL_FOR_SPECIAL_SESSION}`,
+      className: "lowerNavItems",
+    },
+    {
       name: "Submission",
       path: `${appConstants.SUBMISSION}`,
       className: "lowerNavItems",
     },
-    
+
     {
       name: "Program",
       path: `${appConstants.PROGRAM}`,
@@ -74,23 +79,50 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar" id="navbar">
-      <div className="upperNavbar" id="upperNavbar">
-        {/* <div> */}
-          <img className="mits_logo" src={mits_logo} />
-        {/* </div> */}
-        {/* <img className='ieee_logo' src={ieee_logo} /> */}
-        <label className="titleText">ICOTL 2k23</label>
-        <div>
-          <div className="upperNavItemsList">
-            {upperNavItemsList.map((navItem, index) => (
+    <div>
+
+      <div className="navbar" id="navbar">
+        <div className="upperNavbar" id="upperNavbar">
+          <div className="upperNavBarLogo">
+            <img className="mits_logo" src={mits_logo} />
+            {/* <img className='ieee_logo' src={ieee_logo} /> */}
+            <label className="titleText">ICOTL 2k23</label>
+            <div></div>
+          </div>
+          <div>
+            <div className="upperNavItemsList">
+              {upperNavItemsList.map((navItem, index) => (
+                <NavLink
+                  to={navItem.path}
+                  key={index}
+                  className={
+                    pathname.pathname === navItem.path
+                      ? "upperNavItems_active"
+                      : "upperNavItems"
+                  }
+                  onClick={handleMenuIcon}
+                >
+                  {navItem.name}
+                </NavLink>
+              ))}
+            </div>
+            <div className="container" id="container" onClick={handleMenuIcon}>
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
+          </div>
+        </div>
+        <div className="lowerNavbar" id="lowerNavbar">
+          <div className="lowerNavItemsList" id="lowerNavItemsList">
+            {lowerNavItemsList.map((navItem, index) => (
               <NavLink
                 to={navItem.path}
                 key={index}
                 className={
                   pathname.pathname === navItem.path
-                    ? "upperNavItems_active"
-                    : "upperNavItems"
+                    ? "lowerNavItems_active"
+                    : "lowerNavItems"
                 }
                 onClick={handleMenuIcon}
               >
@@ -98,33 +130,6 @@ export default function Navbar() {
               </NavLink>
             ))}
           </div>
-          <div className="container" id="container" onClick={handleMenuIcon}>
-            <div className="bar1"></div>
-            <div className="bar2"></div>
-            <div className="bar3"></div>
-          </div>
-        </div>
-      </div>
-      <div className="lowerNavbar" id="lowerNavbar">
-        <div className="dume"></div>
-        {/* <label className="collegeTitle">
-          Madanapalle Institute of Technology & Science
-        </label> */}
-        <div className="lowerNavItemsList" id="lowerNavItemsList">
-          {lowerNavItemsList.map((navItem, index) => (
-            <NavLink
-              to={navItem.path}
-              key={index}
-              className={
-                pathname.pathname === navItem.path
-                  ? "lowerNavItems_active"
-                  : "lowerNavItems"
-              }
-              onClick={handleMenuIcon}
-            >
-              {navItem.name}
-            </NavLink>
-          ))}
         </div>
       </div>
     </div>

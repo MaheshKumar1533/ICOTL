@@ -9,5 +9,6 @@ export const appConstants = {
     ORGANIZING_COMMITTEE: "/organizing-committee",
     CONTACT_US: "/contact-us",
     ACCESS: "/access",
-    VISA: "/visa"
+    VISA: "/visa",
+    CALL_FOR_SPECIAL_SESSION: "/call-for-special-session"
 }

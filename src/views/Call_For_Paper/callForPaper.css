@@ -8,10 +8,25 @@
     margin : 60px 0 0;
     text-align: justify;
     line-height: 30px;
+    text-indent: 30px;
+}
+
+.callForPeperPointsDiv{
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.callForPeperPointsDiv p{
+    line-height: 30px;
+}
+.callForPeperPointsDiv svg{
+   margin-top: 3px;
 }
 
 @media screen and (max-width:500px) {
     .callForPaper{
-        width: 96%;
+        width: 94%;
     }
 }

@@ -3,12 +3,11 @@
     position: fixed;
     bottom : 15px;
     right : 25px;
-    /* z-index: 2 !important; */
 }
 
 .contactUs .contactUsBtn{
     width : 140px;
-    background-image: linear-gradient(to right , #c9ab01, #ff9b19) !important;
+    background-image: linear-gradient(to right , #002672, #0039e5) !important;
     color:rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
@@ -49,7 +48,6 @@
     font-weight: 700;
     margin-bottom: 10px;
     right : 15px;
-    /* background-color: yellow; */
     color:rgb(2, 2, 160);
     text-decoration: none;
     border-radius: 5px;
