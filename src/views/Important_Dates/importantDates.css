@@ -48,30 +48,30 @@
 }
 
 .box2 {
-  right: 20px;
+  right: 50px;
 }
 
 .box3 {
   bottom: 248px;
-  right: 180px;
+  right: 210px;
 }
 
 .box4 {
-  right: 230px;
+  right: 140px;
 }
 
 .box5 {
-  right: 280px;
+  right: 200px;
   bottom: 212px;
 }
 
 .box6 {
-  right: 230px;
+  right: 210px;
 }
 
 .box7 {
   bottom: 212px;
-  right: 270px;
+  right: 230px;
 }
 
 .point {
@@ -153,81 +153,85 @@ h3 {
 @media screen and (max-width:1300px) and (min-width:1210px){
 
   .impDateBar{
-    width: 150vh;
+    width: 95%;
   }
   .box1 {
     bottom: 265px;
   }
 
   .box2 {
-    right: 60px;
+    right: 80px;
   }
 
   .box3 {
     bottom: 248px;
-    right: 200px;
+    right: 225px;
   }
 
   .box4 {
-    right: 260px;
+    right: 250px;
   }
 
   .box5 {
-    right: 350px;
+    right: 330px;
     bottom: 212px;
   }
 
   .box6 {
-    right: 450px;
+    right: 400px;
   }
 
   .box7 {
     bottom: 212px;
-    right: 545px;
+    right: 480px;
   }
 }
 @media screen and (max-width:1210px) and (min-width:1100px){
 
   .impDateBar{
-    width: 140vh;
+    width: 95%;
   }
   .box1 {
     bottom: 265px;
+    right:10px;
   }
 
   .box2 {
-    right: 70px;
+    right: 100px;
   }
 
   .box3 {
     bottom: 248px;
-    right: 210px;
+    right: 235px;
   }
 
   .box4 {
-    right: 270px;
+    right: 290px;
   }
 
   .box5 {
-    right: 360px;
+    right: 380px;
     bottom: 212px;
   }
 
   .box6 {
-    right: 460px;
+    right: 480px;
   }
 
   .box7 {
     bottom: 212px;
-    right: 545px;
+    right: 590px;
   }
 }
 
 
 @media screen and (max-width:1100px) {
+  .impDatesBody{
+    height : 570px;
+  }
 
   .impDateBar{
-    width: 140vh;
+    width: 1100px;
   }
   .box1 {
     bottom: 265px;
@@ -257,6 +261,6 @@ h3 {
 
   .box7 {
     bottom: 212px;
-    right: 585px;
+    right: 555px;
   }
 }

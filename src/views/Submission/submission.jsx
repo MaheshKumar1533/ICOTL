@@ -1,14 +1,14 @@
 import React from "react";
 import "./submission.css";
 import { Typography } from "@mui/material";
+import Link from "@mui/material";
 
 export default function Submission() {
   return (
     <div className="submission">
       <p className="title">Paper Submission</p>
       <p className="submissionNote">
-        You are welcome to present your latest works on awareness science,
-        technology, and awareness related applications. Submitted papers must be
+        You are welcome to present your latest works on optimization techniques & their application in various machine learning and data analysis algorithms. Submitted papers must be
         in a PDF format and should be original, unpublished, and not under
         submission to other conferences or journals.
       </p>
@@ -19,8 +19,7 @@ export default function Submission() {
         or more than 8 pages will be rejected without review.
       </p>
       <p className="submissionNote">
-        All submissions should be in the IEEE 8.5 two-column format. Papers
-        should contain up to 5 keywords. Papers will be evaluated for
+        All submissions should be in the IEEE two-column format. Author's names and affiliation should be kept blank because of double blind review. Papers should contain up to 5 keywords. Papers will be evaluated for
         originality, significance, clarity, and soundness, and will be reviewed
         by at least three independent reviewers.
       </p>
@@ -37,19 +36,19 @@ export default function Submission() {
       <p className="submissionNote1">
         Accepted and Revision Required Paper authors are advised to make
         necessary corrections and modifications suggested by the reviewers in
-        your final manuscript and upload the final papers on or before September
-        24, 2019. Papers for presentations should conform to the IEEE format and
+        your final manuscript and upload the final papers on or before 15<sup>th</sup> October, 2023. Papers for presentations should conform to the IEEE format and
         specifications. Authors to submit the full final paper (Maximum 6 pages,
         double-column US letter size) as PDF using the IEEE templates. Extra
-        pages beyond this would require additional page length charges. The
-        additional payment required for extra pages is 2,000 JPY/page. Please
-        check "Registration" for details. The IEEE paper template can be
-        downloaded from the link given below.
-        <label className="submissionLink">
-          {" "}
-          http://www.ieee.org/conferences_events/
-          conferences/publishing/templates.html
-        </label>
+        pages beyond this would require additional page length charges. Please
+        check "Registration" for details. {" "}
+        <a 
+          className="templateLink" 
+          href='https://www.ieee.org/conferences/publishing/templates.html'
+          target="_blank"
+          rel="noreferrer"
+        > 
+          Click here to download the IEEE paper template.
+        </a>
       </p>
     </div>
   );

@@ -1,8 +1,9 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { appConstants } from '../../constants/appConstants'
 import { Button, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import EmailIcon from "@mui/icons-material/Email";
+import CloseIcon from '@mui/icons-material/Close';
 import PhoneIcon from "@mui/icons-material/Phone";
 import './contactUs.css'
 
@@ -11,20 +12,21 @@ export default function ContactUs() {
     document.addEventListener('click', handleClickOutside, true)
   },[])
 
-  
   const handleContactUs = () => {
-    console.log("IN ")
     document.getElementById("contactUsBody")?.classList.toggle('active');
+    if(document.getElementById("contactUsBody")?.classList.contains('active')){
+      console.log(true)
+    }else{
+      console.log(false)
+    }
   }
 
   const handleClickOutside = (e) =>{
-    console.log("out")
     if( document.getElementById("contactUsBody")?.classList.contains('active')){
       handleContactUs();
     }else{
       
       if( document.getElementById("contactUs").contains(e.target)){
-        console.log('in out')
         handleContactUs();
       }
     }
@@ -34,11 +36,11 @@ export default function ContactUs() {
     <div>
       <div className="contactUs" id='contactUs'>
         <Button
-          to={appConstants.CONTACT_US}
+          to=""
           className="contactUsBtn"
           // onClick={handleContactUs}
         >
-          Contact Us
+        Contact Us
         </Button>
       </div>
       <div className="contactUsBody" id="contactUsBody">

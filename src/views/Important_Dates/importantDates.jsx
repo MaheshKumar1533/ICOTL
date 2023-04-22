@@ -12,8 +12,8 @@ export default function ImportantDates() {
             </h3>
             <h3 className=""></h3>
             <p>
-              Paper Submisson opens &{" "}
               <strong>
+              Paper Submisson opens &{" "}
                 Application for Special Session Proposal Submission
               </strong>
             </p>

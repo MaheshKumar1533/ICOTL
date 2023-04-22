@@ -22,8 +22,12 @@
     margin : 20px 0 !important;
     text-align: justify;
 }
-.submissionLink{
+.templateLink{
     color: blue;
+    text-decoration: none;
+}
+.templateLink:hover{
+    color:rgb(0, 0, 112)
 }
 @media screen and (max-width:500px) {
     .submission{
