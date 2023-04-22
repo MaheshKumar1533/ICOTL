@@ -39,11 +39,16 @@ export default function Navbar() {
       className: "lowerNavItems",
     },
     {
+      name: "Call For Special Sesssion",
+      path: `${appConstants.CALL_FOR_SPECIAL_SESSION}`,
+      className: "lowerNavItems",
+    },
+    {
       name: "Submission",
       path: `${appConstants.SUBMISSION}`,
       className: "lowerNavItems",
     },
-    
+
     {
       name: "Program",
       path: `${appConstants.PROGRAM}`,

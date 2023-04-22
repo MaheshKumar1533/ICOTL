@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 export default function Submission() {
   return (
     <div className="submission">
-      <Typography variant="h5">Paper Submission : </Typography>
+      <p className="title">Paper Submission</p>
       <p className="submissionNote">
         You are welcome to present your latest works on awareness science,
         technology, and awareness related applications. Submitted papers must be
@@ -46,7 +46,8 @@ export default function Submission() {
         check "Registration" for details. The IEEE paper template can be
         downloaded from the link given below.
         <label className="submissionLink">
-         {" "} http://www.ieee.org/conferences_events/
+          {" "}
+          http://www.ieee.org/conferences_events/
           conferences/publishing/templates.html
         </label>
       </p>
