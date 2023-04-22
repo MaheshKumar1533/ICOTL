@@ -1,19 +1,34 @@
-
 .HomeBgImgDiv {
   background-color: #000000 !important;
   position: relative;
   font-family: Arial;
+  opacity: 1;
 }
 
-.homeImg{
+.homeImg {
   width: 100%;
-  min-height: 530px;
-  height: 90%;
-  max-height: 680px;
-  opacity: 0.4;
+  min-height: 62vh;
+  height: 50%;
+  max-height: 65vh;
+  opacity: 0.6;
   object-fit: fill;
 }
 
+.homePageImges {
+  width: 320px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: fill;
+}
+
+.homePageImgesDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 17px 0px;
+}
 
 .text-block {
   position: absolute;
@@ -23,60 +38,87 @@
   color: white;
   text-align: center;
   line-height: 70px;
-  width : 100%;
+  width: 100%;
+  display: grid;
+  row-gap: 50px;
 }
 
-.cardTitle{
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0 !important;
-    margin-bottom: 20px !important;
+.cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 !important;
+  margin-bottom: 20px !important;
 }
 
-.cardText{
-    padding: 0 40px;
-    line-height: 25px;
-    text-align: justify;
+.cardText {
+  padding: 0 40px;
+  line-height: 25px;
+  text-align: justify;
 }
 
-.text-block p{
-    font-size: 50px;
-    font-weight: 600;
-    color: white;
-    font-family: "Major Mono Display", monospace;
+.text-block p {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  font-family: "Major Mono Display", monospace;
 }
 
-.mainLetter{
+.mainLetter {
   font-size: 55px;
   color: #e17800;
 }
 
+.bangaloreImagesDiv {
+  width: 75%;
+  margin: 10px auto;
+}
 
+.bangaloreImg {
+  max-height: 300px !important;
+}
 
-@media screen and (max-width:550px) {
-  .homeImg{
+.bangaloreImagesDiv .title{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px 10px 0px;
+}
+
+@media screen and (max-width: 1150px) {
+  .homePageImges {
+    width: 280px;
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bangaloreImagesDiv {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .homeImg {
     width: 100%;
     min-height: 400px !important;
   }
 
-  .text-block{
-    width : 300px;
+  .text-block {
+    width: 300px;
   }
 
-  .text-block p{
-    font-size:20px;
+  .text-block p {
+    font-size: 20px;
     line-height: 40px;
   }
 
-  .HomePageCard{
+  .HomePageCard {
     margin: 0 5px;
   }
 
-  .cardText{
-  padding: 0 10px;
+  .cardText {
+    padding: 0 10px;
   }
 
-  .mainLetter{
+  .mainLetter {
     font-size: 25px;
     color: #e17800;
   }
