@@ -1,3 +1,6 @@
+.homeDiv{
+  padding-bottom: 100px;
+}
 .HomeBgImgDiv {
   background-color: #000000 !important;
   position: relative;
@@ -14,14 +17,15 @@
   object-fit: fill;
 }
 
-.homePageImges {
-  width: 320px;
-  height: 110px;
+.homePageLogo {
+  width: 300px;
+  height: 100px;
   border-radius: 10%;
   object-fit: fill;
+  margin: 15px;
 }
 
-.homePageImgesDiv {
+.homePageLogosDiv {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,6 +67,10 @@
   font-family: "Major Mono Display", monospace;
 }
 
+.line_5{
+  font-size: 30px !important;
+}
+
 .mainLetter {
   font-size: 55px;
   color: #e17800;
@@ -85,41 +93,50 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .homePageImges {
+  .homePageLogo {
     width: 280px;
     height: 130px;
   }
+
 }
 
+/* @media screen and (max-width: 50px) { */
+
 @media screen and (max-width: 550px) {
-  .bangaloreImagesDiv {
-    width: 95%;
-    margin: 10px auto;
-  }
+  
   .homeImg {
     width: 100%;
     min-height: 400px !important;
   }
-
+  
   .text-block {
-    width: 300px;
+    width: 400px;
   }
-
+  
   .text-block p {
     font-size: 20px;
     line-height: 40px;
   }
-
+  
   .HomePageCard {
     margin: 0 5px;
   }
-
+  
   .cardText {
     padding: 0 10px;
   }
-
+  
   .mainLetter {
     font-size: 25px;
     color: #e17800;
+  }
+  .homePageLogo{
+    width : 200px;
+    height : 65px;
+    margin : 5px;
+  }
+  .bangaloreImagesDiv {
+    width: 95%;
+    margin: 10px auto;
   }
 }

@@ -23,6 +23,7 @@ export default function CallForPaper() {
 
   return (
     <div className="callForPaper">
+    <p className="title">Call for Paper</p>
       <p className="cfpNote1">
         Individual submissions in the following area are invited. Authors are
         invited to submit the full manuscript (maximum 6 pages including

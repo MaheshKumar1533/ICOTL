@@ -8,7 +8,7 @@ import homePageImages3 from "../../assets/iwate.png";
 import lalbagh from "../../assets/LalbaghBotanicalGarden.jpg";
 import cubbon from "../../assets/cubbon.jpg";
 import iskcon from "../../assets/iskcontemples.jpg";
-import banglorePalace from "../../assets/banglorePalace.jpg";
+import bengaluruPalace from "../../assets/bengaluruPalace.jpg";
 import vidhana from "../../assets/vidhana.jpg";
 import mary from "../../assets/mary.jpg";
 import spaceCenter from "../../assets/spaceCenter.jpg";
@@ -26,39 +26,39 @@ import InfoIcon from "@mui/icons-material/Info";
 
 const itemData = [
   {
-    img: banglorePalace,
-    title: "banglore Palace",
+    img: bengaluruPalace,
+    title: "Bengaluru Palace",
     subtitle: " Rs 230 for Indians and Rs 460 for foreigners",
   },
-  {
-    img: cubbon,
-    title: "Cubbon Park Bangalore",
-    subtitle: "Open from 10 AM to 5 PM",
-  },
-  {
-    img: iskcon,
-    title: "ISKCON Temple",
-    subtitle: "Krishna Hill, Rajaji Nagar.",
-  },
-  {
-    img: lalbagh,
-    title: " Lalbagh Botanical Garden",
-    subtitle: "Mavalli, Bengaluru",
-  },
+  // {
+  //   img: cubbon,
+  //   title: "Cubbon Park Bengaluru",
+  //   subtitle: "Open from 10 AM to 5 PM",
+  // },
   {
     img: vidhana,
     title: "Vidhana Soudha",
     subtitle: "The largest legislative building in India",
   },
   {
-    img: mary,
-    title: "St. Mary's Basilica, Bengaluru",
-    subtitle: "Open from 6 AM to 8 PM",
-  },
-  {
     img: spaceCenter,
     title: "HAL Heritage Centre and Aerospace Museum",
     subtitle: "Open from 9 AM to 5 PM",
+  },
+  {
+    img: iskcon,
+    title: "ISKCON Temple",
+    subtitle: "Krishna Hill, Rajaji Nagar.",
+  },
+  // {
+  //   img: lalbagh,
+  //   title: " Lalbagh Botanical Garden",
+  //   subtitle: "Mavalli, Bengaluru",
+  // },
+  {
+    img: mary,
+    title: "St. Mary's Basilica, Bengaluru",
+    subtitle: "Open from 6 AM to 8 PM",
   },
   {
     img: JNplanetarium,
@@ -74,24 +74,25 @@ export default function Home() {
         <img src={mitsImg} alt="Nature" className="homeImg" />
         <div class="text-block">
           <div>
-            <p className="line_4">(ICOTL 2023)</p>
-            <p className="line_1">
-              The First <span className="mainLetter">I</span>nternational{" "}
+            <p className="line_1">ICOTL 2023</p>
+            <p className="line_2">
+              1<sup>st </sup><span className="mainLetter">I</span>nternational{" "}
               <span className="mainLetter">C</span>onference
             </p>
-            <p className="line_2"> on </p>
-            <p className="line_3">
+            <p className="line_3"> on </p>
+            <p className="line_4">
               <span className="mainLetter">O</span>ptimization{" "}
               <span className="mainLetter">T</span>echniques for{" "}
-              <span className="mainLetter">L</span>earning.
+              <span className="mainLetter">L</span>earning
             </p>
+            <p className="line_5">7-8 December 2023</p>
           </div>
         </div>
       </div>
-      <div className="homePageImgesDiv">
-        <img src={homePageImages2} alt="Nature" className="homePageImges" />
-        <img src={homePageImages1} alt="Nature" className="homePageImges" />
-        <img src={homePageImages3} alt="Nature" className="homePageImges" />
+      <div className="homePageLogosDiv">
+        <img src={homePageImages2} alt="Nature" className="homePageLogo" />
+        <img src={homePageImages1} alt="Nature" className="homePageLogo" />
+        <img src={homePageImages3} alt="Nature" className="homePageLogo" />
       </div>
       <div className="HomePageCard">
         <Card
@@ -148,9 +149,9 @@ export default function Home() {
           </CardContent>
         </Card>
         <div className="bangaloreImagesDiv">
-          <p className="title">Bangalore Tourist Places</p>
+          <p className="title">About Bengaluru</p>
           <ImageList>
-            <ImageListItem key="Subheader" cols={2}></ImageListItem>
+            {/* <ImageListItem key="Subheader" cols={2}></ImageListItem> */}
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
                 <img
