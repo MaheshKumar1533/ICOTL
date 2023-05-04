@@ -2,8 +2,9 @@ import React from 'react'
 import './home.css'
 import mitsImg from '../../assets/mits_img_1.jpg'
 import homePageImages1 from '../../assets/IEEE.jpg'
-import homePageImages2 from "../../assets/mitsLogo.jpg";
+import homePageImages2 from "../../assets/mits.png";
 import homePageImages3 from "../../assets/iwate.png";
+import homePageImages4 from "../../assets/cyut.png"
 
 import lalbagh from "../../assets/LalbaghBotanicalGarden.jpg";
 import cubbon from "../../assets/cubbon.jpg";
@@ -28,7 +29,7 @@ const itemData = [
   {
     img: bengaluruPalace,
     title: "Bengaluru Palace",
-    subtitle: " Rs 230 for Indians and Rs 460 for foreigners",
+    // subtitle: " Rs 230 for Indians and Rs 460 for foreigners",
   },
   // {
   //   img: cubbon,
@@ -38,33 +39,33 @@ const itemData = [
   {
     img: vidhana,
     title: "Vidhana Soudha",
-    subtitle: "The largest legislative building in India",
+    // subtitle: "The largest legislative building in India",
   },
   {
     img: spaceCenter,
     title: "HAL Heritage Centre and Aerospace Museum",
-    subtitle: "Open from 9 AM to 5 PM",
+    // subtitle: "Open from 9 AM to 5 PM",
   },
   {
     img: iskcon,
     title: "ISKCON Temple",
-    subtitle: "Krishna Hill, Rajaji Nagar.",
+    // subtitle: "Krishna Hill, Rajaji Nagar.",
   },
   // {
   //   img: lalbagh,
   //   title: " Lalbagh Botanical Garden",
   //   subtitle: "Mavalli, Bengaluru",
   // },
-  {
-    img: mary,
-    title: "St. Mary's Basilica, Bengaluru",
-    subtitle: "Open from 6 AM to 8 PM",
-  },
-  {
-    img: JNplanetarium,
-    title: "Jawaharlal Nehru Planetarium",
-    subtitle: "Sky Theatre show",
-  },
+  // {
+  //   img: mary,
+  //   title: "St. Mary's Basilica, Bengaluru",
+  //   subtitle: "Open from 6 AM to 8 PM",
+  // },
+  // {
+  //   img: JNplanetarium,
+  //   title: "Jawaharlal Nehru Planetarium",
+  //   subtitle: "Sky Theatre show",
+  // },
 ];
 
 export default function Home() {
@@ -93,8 +94,25 @@ export default function Home() {
         <img src={homePageImages2} alt="Nature" className="homePageLogo" />
         <img src={homePageImages1} alt="Nature" className="homePageLogo" />
         <img src={homePageImages3} alt="Nature" className="homePageLogo" />
+        <img src={homePageImages4} alt="Nature" className="homePageLogo" />
       </div>
       <div className="HomePageCard">
+      <Card
+          sx={{
+            width : 1300,
+            maxWidth: '97%',
+            margin: "20px auto",
+            padding : "20px 0",
+            backgroundColor: " #bce6fa",
+          }}
+        >
+          <CardContent>
+            <p className="headingCard">IEEE SMC Technical Committee: &nbsp;&nbsp;&nbsp;&bull; Awareness Computing &nbsp;&nbsp;&nbsp;&bull; Soft Computing&nbsp;&nbsp;&nbsp; &bull; Intelligent Internet System</p>
+            <div className="cardText">
+              
+            </div>
+          </CardContent>
+        </Card>
         <Card
           sx={{
             maxWidth: 1000,

@@ -10,7 +10,6 @@ export default function ImportantDates() {
             <h3 className="dateTitle">
               Start - 1<sup>st</sup> May 2023
             </h3>
-            <h3 className=""></h3>
             <p>
               <strong>
               Paper Submisson opens &{" "}

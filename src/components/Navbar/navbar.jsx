@@ -1,7 +1,6 @@
 import React from "react";
 import "./navbar.css";
 import { appConstants } from "../../constants/appConstants";
-import ieee_logo from "../../assets/IEEE.png";
 import mits_logo from "../../assets/mitsLogo.jpeg";
 import Typography from "@mui/material/Typography";
 import { Link, NavLink, useLocation } from "react-router-dom";

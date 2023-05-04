@@ -1,12 +1,12 @@
 export const HonoraryChair = [
 {
   designation : "Honorary Chair",
-  name : "Dr. N. Vijay Bhaskar Choudary",
+  name : "N. Vijay Bhaskar Choudary",
   address : "Correspondent, MITS, Madanapalle, AP, India"
 },
 {
   designation : "Honorary Chair",
-  name : "Prof. Atsuto Suzuki",
+  name : "Atsuto Suzuki",
   address : "President, Iwate Prefectural university, Japan"
 },
 ]
@@ -56,19 +56,19 @@ export const PCCoChair =[
 export const SpecialSessionChair = [
 {
   designation : "Special Session Chair",
-  name : "Prof. Cheng-Hsiung Hsieh",
+  name : "Cheng-Hsiung Hsieh",
   address : "CYUT, Taiwan"
 },
 ]
 export const PublicityAndIndustryAllianceChair = [
 {
   designation : "Publicity and Industry alliance Chairs",
-  name : "Mr. Venugopal Choudhury",
+  name : "Venugopal Choudhury",
   address : "MITS, India"
 },
 {
   designation : "Publicity and Industry alliance Chairs",
-  name : "Mr. SGH. Gowda",
+  name : "SGH. Gowda",
   address : "MITS, India"
 },
 ]
@@ -76,25 +76,25 @@ export const PublicationChair =[
 {
   designation : "Publication Chair",
   name : "Basabi Chakraborty",
-  address : "Iwate Prefectural University, Japan"
+  address : "MITS, India"
 },
 ]
 export const PublicationCoChair = [
 {
   designation : "Publication Co-Chair",
-  name : "Mr. Toralkar Pawan",
+  name : "Toralkar Pawan",
   address : "MITS, India"
 },
 ]
 export const LocalOrganizingFinanceChair = [
 {
   designation : "Local Organizing & Finance Chairs",
-  name : "Dr. Sreemant Basu",
+  name : "Sreemant Basu",
   address : "MITS, India"
 },
 {
   designation : "Local Organizing & Finance Chairs",
-  name : "•	Dr. Pradeep Kumar",
+  name : "D. Pradeep Kumar",
   address : "MITS, India"
 },
 ]
@@ -128,7 +128,7 @@ export const AdvisoryCommittee = [
 export const RegistrationChair  = [
 {
   designation : "Registration Chairs",
-  name : "Dr. Sreemant Basu",
+  name : "Sreemant Basu",
   address : "MITS, India"
 },
 ]
