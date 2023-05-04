@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -7,12 +7,12 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import PageNote from '../pageNote.jsx/pageNote';
-import './registration.css'
+import PageNote from "../pageNote.jsx/pageNote";
+import "./registration.css";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundImage: "linear-gradient(to bottom right, #006699, #00547e)",
+    backgroundImage: "linear-gradient(to bottom right, #002c83, #02266f)",
     color: theme.palette.common.white,
     border: 0,
     fontSize: 16,
@@ -24,7 +24,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 
 const StyledTableBodyCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.body}`]: {
-    backgroundImage: "linear-gradient(to bottom right, #006699, #00547e)",
+    backgroundImage: "linear-gradient(to bottom right, #002c83, #02266f)",
     fontSize: 16,
     minWidth: 40,
     color: theme.palette.common.white,
@@ -42,76 +42,102 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-const registrationDetails = [
-  {
-    name: "Student",
-    IEEE_memberPrice: 500,
-    Non_IEEE_memberPrice:550
-  },
-  {
-    name: "Resercher",
-    IEEE_memberPrice: 500,
-    Non_IEEE_memberPrice:550
-  },
-  {
-    name: "Faculty",
-    IEEE_memberPrice: 500,
-    Non_IEEE_memberPrice:550
-  },
-  {
-    name: "student",
-    IEEE_memberPrice: 500,
-    Non_IEEE_memberPrice:550
-  },
-  {
-    name: "Industry",
-    IEEE_memberPrice: 500,
-    Non_IEEE_memberPrice:550
-  },
-];
-
 
 export default function Registration() {
   return (
     <div className="registrationBody">
-
-      <PageNote />
-
-      {/* <TableContainer component={Paper} sx={{ maxHeight: 620 }}>
-        <Table stickyHeader aria-label="sticky table" sx={{ minWidth: 700 }}>
-          <TableHead>
-            <StyledTableCell></StyledTableCell>
-            <StyledTableCell align="center">IEEE Member</StyledTableCell>
-            <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
-          </TableHead>
-          <TableBody>
-            {registrationDetails.map((item, index) => (
+      <div className="tableTitle">
+        <label>Early Bird Registration</label>
+      </div>
+        <TableContainer component={Paper}>
+          <Table sx={{ minWidth: 700 }}>
+            <TableHead>
+              <StyledTableCell></StyledTableCell>
+              <StyledTableCell align="center">IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">
+                LifeTime IEEE Member
+              </StyledTableCell>
+              <StyledTableCell align="center">
+                Student IEEE Member
+              </StyledTableCell>
+              <StyledTableCell align="center">
+                Student Non IEEE Member
+              </StyledTableCell>
+            </TableHead>
+            <TableBody>
               <StyledTableRow>
                 <StyledTableBodyCell component="th" scope="row" align="center">
-                  {item.name}
+                  Indian
                 </StyledTableBodyCell>
-                <StyledTableCell align="center">
-                  &#8377; {item.IEEE_memberPrice}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  &#8377; {item.Non_IEEE_memberPrice}
-                </StyledTableCell>
+                <StyledTableCell align="center">&#8377; 1000</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 2000</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 3000</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 3500</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 4000</StyledTableCell>
               </StyledTableRow>
-            ))}
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                Outside Indai
-              </StyledTableBodyCell>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Foreigner
+                </StyledTableBodyCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 30</StyledTableCell>
+              </StyledTableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
+
+
+      <div className="tableTitle">
+        <label>LateRegistration</label>
+        <p>(After October 15<sup>th</sup>, 2023)</p>
+      </div>
+      {/* <div style={{maxHeight:300}}>
+        <PageNote/>
+      </div> */}
+        <TableContainer component={Paper}>
+          <Table sx={{ minWidth: 700 }}>
+            <TableHead>
+              <StyledTableCell></StyledTableCell>
+              <StyledTableCell align="center">IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
               <StyledTableCell align="center">
-                $ 25
+                LifeTime IEEE Member
               </StyledTableCell>
               <StyledTableCell align="center">
-                $ 30
+                Student IEEE Member
               </StyledTableCell>
-            </StyledTableRow>
-          </TableBody>
-        </Table>
-      </TableContainer> */}
+              <StyledTableCell align="center">
+                Student Non IEEE Member
+              </StyledTableCell>
+            </TableHead>
+            <TableBody>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Indian
+                </StyledTableBodyCell>
+                <StyledTableCell align="center">&#8377; 1000</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 2000</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 3000</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 3500</StyledTableCell>
+                <StyledTableCell align="center">&#8377; 4000</StyledTableCell>
+              </StyledTableRow>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Foreigner
+                </StyledTableBodyCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 25</StyledTableCell>
+                <StyledTableCell align="center">$ 30</StyledTableCell>
+              </StyledTableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
     </div>
   );
 }

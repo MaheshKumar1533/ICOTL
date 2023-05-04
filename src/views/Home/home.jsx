@@ -109,7 +109,6 @@ export default function Home() {
           <CardContent>
             <p className="headingCard">IEEE SMC Technical Committee: &nbsp;&nbsp;&nbsp;&bull; Awareness Computing &nbsp;&nbsp;&nbsp;&bull; Soft Computing&nbsp;&nbsp;&nbsp; &bull; Intelligent Internet System</p>
             <div className="cardText">
-              
             </div>
           </CardContent>
         </Card>
