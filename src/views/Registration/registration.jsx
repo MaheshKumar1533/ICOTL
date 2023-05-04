@@ -92,7 +92,7 @@ export default function Registration() {
 
 
       <div className="tableTitle">
-        <label>LateRegistration</label>
+        <label>Late Registration</label>
         <p>(After October 15<sup>th</sup>, 2023)</p>
       </div>
       {/* <div style={{maxHeight:300}}>
