@@ -24,7 +24,8 @@
 
 .registrationNoteListItem{
   padding-left: 5px !important;
-  
+  text-align: justify !important;
+  line-height: 28px !important;
 }
 .notesListItemIcon{
   min-width : 30px !important;

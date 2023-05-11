@@ -25,7 +25,7 @@ export default function Submission() {
         and affiliation should be kept blank because of double blind review.
         Papers should contain up to 5 keywords. Papers will be evaluated for
         originality, significance, clarity, and soundness, and will be reviewed
-        by at least three independent reviewers.
+        by at least three independent reviewers. Please note that ithenticate will be used for plagiarism detection.
       </p>
       <Typography variant="h5">LaTeX and Word Templates: </Typography>
       <p className="submissionNote">
