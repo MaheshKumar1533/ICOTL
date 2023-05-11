@@ -184,9 +184,17 @@
   opacity: 0.5; */
 }
 
-.countDownDiv div{
+.countDownDiv label{
   font-size: 25px;
+  font-weight: 900;
+  border: 2px solid #fff;
+  padding: 0px 5px;
 }
+.countDownDiv span{
+  font-size: 25px;
+  font-weight: 900;
+}
+
 
 
 @media screen and (max-width:1000px) and (min-width:830px) {
@@ -204,8 +212,20 @@
     font-size: 28px !important;
   }
 }
-@media screen and (max-width:530px) {
+@media screen and (max-width:560px) {
   .text-block p{
     font-size: 25px !important;
   }
+}
+@media screen and (max-width:600px) {
+
+  .countDownDiv label{
+    padding: 3px 5px;
+  font-size: 16.5px;
+  font-weight: 600;
+}
+.countDownDiv span{
+  font-size: 16.5px;
+  font-weight: 600;
+}
 }

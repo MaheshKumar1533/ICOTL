@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const CountDown = () => {
 
-    const deadline = "October, 15, 2023";
+    const deadline = "December, 7, 2023";
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
@@ -35,10 +35,18 @@ const CountDown = () => {
 
    return (
      <div className="countDownDiv">
-       <div className="Clock-days">{leading0(days)} Days </div>
-       <div className="Clock-hours">{leading0(hours)} Hours</div>
-       <div className="Clock-minutes">{leading0(minutes)} Minutes</div>
-       <div className="Clock-seconds">{leading0(seconds)} Seconds</div>
+       <div className="Clock">
+           <label>{leading0(days)} Days</label> <span>:</span>
+       </div>
+       <div className="Clock">
+           <label>{leading0(hours)} Hours</label> <span>:</span>
+       </div>
+       <div className="Clock">
+           <label>{leading0(minutes)} Min</label> <span>:</span>
+       </div>
+       <div className="Clock">
+           <label>{leading0(seconds)} Sec</label>
+       </div>
      </div>
    );
 };
