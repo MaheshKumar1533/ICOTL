@@ -3,6 +3,11 @@
     margin: 0 auto;
     min-height: 800px;
 }
+.posterDownload{
+    margin: 30px auto 0px !important;
+    font-size: 1.2rem !important;
+    text-align: center;
+}
 
 .cfpNote1{
     margin : 20px 0 0;
@@ -29,6 +34,26 @@
 }
 .callForPeperPointsDiv svg{
    margin-top: 3px;
+}
+
+
+.submissionBtn{
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    width : 350px;
+    /* height : 70px; */
+    text-align: center;
+    padding : 10px 20px;
+    margin : 20px auto 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 111, 0);
+    color: rgb(36, 24, 80);
+}
+
+.submissionBtn:hover{
+    background-color: #061D86;
+    color: white;
 }
 
 @media screen and (max-width:500px) {

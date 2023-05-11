@@ -52,9 +52,9 @@ const SpecialSession = () => {
         notification will be sent by June 8, 2023. Paper submission for SS
         closes with the paper submission deadline for general session, on 30th.
         July 2023. Please visit the conference website
-        <a href="https://mits-icotl23.netlify.app/" target="_blank">
+        <a href="http://www.icotl.in/" target="_blank">
           {" "}
-          mits-icotl23.netlify.app/
+          www.icotl.in
         </a>{" "}
         for details.
       </p>
