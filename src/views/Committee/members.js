@@ -30,29 +30,29 @@ export const GeneralCoChair = [
   },
 ]
 export const PCChair = [
-{
-  designation : "PC Chair",
-  name : "Nidhya Rangarajan",
-  address : "MITS, India"
-},
-{
-  designation : "PC Chair",
-  name : "Bandi Vamsi",
-  address : "MITS, India"
-},
-]
-export const PCCoChair =[
-{
-  designation : "PC Co-chairs",
-  name : "Matsuhara Masafumi",
-  address : "Iwate Prefectural University, Japan"
-},
-{
-  designation : "PC Co-chairs",
-  name : "Yusuke Manabe",
-  address : "Chiba Institute of Technology, Japan"
-},
-]
+  {
+    designation: "PC Chair",
+    name: "Nidhya Rangarajan",
+    address: "MITS, India",
+  },
+];
+export const PCCoChair = [
+  {
+    designation: "PC Co-chairs",
+    name: "Mr. Thangarasan T",
+    address: "MITS, India",
+  },
+  {
+    designation: "PC Co-chairs",
+    name: "Matsuhara Masafumi",
+    address: "Iwate Prefectural University, Japan",
+  },
+  {
+    designation: "PC Co-chairs",
+    name: "Yusuke Manabe",
+    address: "Chiba Institute of Technology, Japan",
+  },
+];
 export const SpecialSessionChair = [
 {
   designation : "Special Session Chair",
@@ -61,17 +61,22 @@ export const SpecialSessionChair = [
 },
 ]
 export const PublicityAndIndustryAllianceChair = [
-{
-  designation : "Publicity and Industry alliance Chairs",
-  name : "Venugopal Choudhury",
-  address : "MITS, India"
-},
-{
-  designation : "Publicity and Industry alliance Chairs",
-  name : "SGH. Gowda",
-  address : "MITS, India"
-},
-]
+  {
+    designation: "Publicity and Industry alliance Chairs",
+    name: "Atul Negi",
+    address: " University of Hyderabad, India",
+  },
+  {
+    designation: "Publicity and Industry alliance Chairs",
+    name: "Venugopal Choudhury",
+    address: "MITS, India",
+  },
+  {
+    designation: "Publicity and Industry alliance Chairs",
+    name: "SGH. Gowda",
+    address: "MITS, India",
+  },
+];
 export const PublicationChair =[
 {
   designation : "Publication Chair",
