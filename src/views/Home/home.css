@@ -169,3 +169,63 @@
     font-size: 18px !important;
   }
 }
+
+
+.countDownDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  backdrop-filter: 10px;
+  margin:0 auto;
+  width: fit-content;
+  padding: 0px 20px !important;
+  /* background-color: #000000;
+  opacity: 0.5; */
+}
+
+.countDownDiv label{
+  font-size: 25px;
+  font-weight: 900;
+  border: 2px solid #fff;
+  padding: 0px 5px;
+}
+.countDownDiv span{
+  font-size: 25px;
+  font-weight: 900;
+}
+
+
+
+@media screen and (max-width:1000px) and (min-width:830px) {
+  .text-block p{
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width:830px) and (min-width:670px) {
+  .text-block p{
+    font-size: 37px !important;
+  }
+}
+@media screen and (max-width:670px) and (min-width:530px) {
+  .text-block p{
+    font-size: 28px !important;
+  }
+}
+@media screen and (max-width:560px) {
+  .text-block p{
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width:600px) {
+
+  .countDownDiv label{
+    padding: 3px 5px;
+  font-size: 16.5px;
+  font-weight: 600;
+}
+.countDownDiv span{
+  font-size: 16.5px;
+  font-weight: 600;
+}
+}

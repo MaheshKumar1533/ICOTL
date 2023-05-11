@@ -50,7 +50,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 export default function Registration() {
   const RegistrationNotes = [
     "Registration fees include all sessions, opening ceremony and banquet. On-site purchase of banquet tickets is not possible because restaurant advance booking is necessary. Extra banquet tickets can be purchased at the time of registration. An attendee's companion, willing to join the banquet, need to purchase a banquet ticket.",
-    "For paper publication, author registration is necessary. It has to be early registration, i.e., before 15 October, 2023. Late registration is possible for participation without paper. With student registration, paper publication is not possible. With author registration, publication of one paper is free. Additional, up to 2 papers, will be allowed with an author registration. As additional page and additional paper fees are related to paper publication, the payment deadline is at the time of early registration.",
+    "For paper publication, author registration is necessary. It has to be early registration, i.e., before 15 October, 2023. Late registration is possible for participation without paper. Additional, up to 2 papers, will be allowed with an author registration. As additional page and additional paper fees are related to paper publication, the payment deadline is at the time of early registration.",
     "Students are encouraged to join IEEE for availing lower registration fees. Even a half-year student member is eligible for the discount rate.",
     "The original student ID or IEEE student card may be verified at ICOTL2023 conference registration desk.",
     "Details of the payment method will be announced soon.",
@@ -60,12 +60,10 @@ export default function Registration() {
     <div className="registrationBody">
       <div className="tableTitle">
         <label>Early Bird Registration</label>
-        <p>
-        (Authors need early bird registration)
-        </p>
+        <p>(Authors need early bird registration)</p>
       </div>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700,  }}>
+        <Table sx={{ minWidth: 700 }}>
           <TableHead>
             <StyledTableCell></StyledTableCell>
             <StyledTableCell align="center">IEEE Member</StyledTableCell>
