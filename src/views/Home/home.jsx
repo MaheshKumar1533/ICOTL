@@ -23,7 +23,7 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 import ListSubheader from "@mui/material/ListSubheader";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
-import CountDown from './../../components/countDown'
+import CountDown from '../../components/countDown/countDown'
 
 
 const itemData = [
@@ -88,8 +88,8 @@ export default function Home() {
               <span className="mainLetter">L</span>earning
             </p>
             <p className="line_5">7-8 December 2023</p>
-            <CountDown/>
           </div>
+            <CountDown/>
         </div>
       </div>
       <div className="homePageLogosDiv">

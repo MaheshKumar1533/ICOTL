@@ -39,7 +39,7 @@ export const PCChair = [
 export const PCCoChair = [
   {
     designation: "PC Co-chairs",
-    name: "Mr. Thangarasan T",
+    name: "Thangarasan T",
     address: "MITS, India",
   },
   {

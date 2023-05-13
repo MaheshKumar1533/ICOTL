@@ -1,6 +1,8 @@
 .navbar {
   box-shadow: 0 0.5px 8px 1px #006699;
   width: 100%;
+  position: sticky;
+  top: 0px;
 }
 
 html,
