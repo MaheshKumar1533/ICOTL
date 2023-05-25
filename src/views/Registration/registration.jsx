@@ -49,8 +49,8 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 export default function Registration() {
   const RegistrationNotes = [
-    "Registration fees include all sessions, opening ceremony and banquet. On-site purchase of banquet tickets is not possible because restaurant advance booking is necessary. Extra banquet tickets can be purchased at the time of registration. An attendee's companion, willing to join the banquet, need to purchase a banquet ticket.",
-    "For paper publication, author registration is necessary. It has to be early registration, i.e., before 15 October, 2023. Late registration is possible for participation without paper. Additional, up to 2 papers, will be allowed with an author registration. As additional page and additional paper fees are related to paper publication, the payment deadline is at the time of early registration.",
+    "Registration fees include all sessions, opening ceremony and banquet. On-site purchase of banquet tickets is not possible because restaurant advance booking is necessary. Extra banquet tickets can be purchased at the time of registration. An attendee's companion, willing to join the banquet, need to purchase a banquet ticket. Extra banquet ticket cost is 1500 INR for Indian participants and 20 USD for Non Indian participants.",
+    "For paper publication, author registration is necessary. It has to be early registration, i.e., before 15 October, 2023. Late registration is possible for participation without paper. Additional 1 paper, will be allowed with an author registration. Additional page charge and additional paper fees are related to paper publication. The payment deadline is at the time of early registration.",
     "Students are encouraged to join IEEE for availing lower registration fees. Even a half-year student member is eligible for the discount rate.",
     "The original student ID or IEEE student card may be verified at ICOTL2023 conference registration desk.",
     "Details of the payment method will be announced soon.",
@@ -93,22 +93,29 @@ export default function Registration() {
               <StyledTableBodyCell component="th" scope="row" align="center">
                 For Indian Author
               </StyledTableBodyCell>
-              {/* <StyledTableCell align="center" colSpan={0}> </StyledTableCell>
-              <StyledTableCell align="center" colSpa> </StyledTableCell> */}
               <StyledTableCell align="center" colSpan={5}>
                 {" "}
-                For IEEE Explore Publication, additional 2,000 INR per paper.
+                For IEEE Publication, additional 2,000 INR per paper.<br/>
+                With one registration at most 2 papers could be published. Extra page charge 500 INR per page
               </StyledTableCell>
             </StyledTableRow>
             <StyledTableRow>
               <StyledTableBodyCell component="th" scope="row" align="center">
-                Foreigner
+                Non Indian
               </StyledTableBodyCell>
               <StyledTableCell align="center">250 USD</StyledTableCell>
               <StyledTableCell align="center">300 USD</StyledTableCell>
               <StyledTableCell align="center">125 USD</StyledTableCell>
               <StyledTableCell align="center">125 USD</StyledTableCell>
               <StyledTableCell align="center">150 USD</StyledTableCell>
+            </StyledTableRow>
+            <StyledTableRow>
+              <StyledTableBodyCell component="th" scope="row" align="center">
+                For Non Indian Author
+              </StyledTableBodyCell>
+              <StyledTableCell align="center" colSpan={5}>
+                One paper free of charge. 1 additional paper for 25 USD
+              </StyledTableCell>
             </StyledTableRow>
           </TableBody>
         </Table>
