@@ -42,7 +42,7 @@ export default function CallForPaper() {
         Accepted papers will be published in the conference proceedings with an
         IEEE catalog number and ISBN number. The proceedings will be published in
         IEEE Xplore and indexed by EI Compendex
-      </p>{" "}
+      </p>
       <br />
       <Typography variant="h5" style={{ marginBottom: 15 }}>
         ICOTL 2023 topics include but not limited to the following:
