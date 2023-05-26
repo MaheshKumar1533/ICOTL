@@ -57,7 +57,7 @@ export default function ContactUs() {
             </div> */}
             <div style={{ display: "flex", alignItems: "center", gap: 10 , marginTop:"40px"}}>
               <EmailIcon />
-              <span>icotl23@mits.ac.in</span>
+              <span>icotl-info@mits.ac.in</span>
             </div>
         </div>
       </div>

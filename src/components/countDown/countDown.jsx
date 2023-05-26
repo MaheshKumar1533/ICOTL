@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./countDown.css";
+import FlipCountdown from "@rumess/react-flip-countdown";
+import { setRef } from "@material-ui/core";
+
 
 const CountDown = () => {
   const countToDate = new Date("December 06, 2023 23:59:59");
@@ -134,14 +137,5 @@ const CountDown = () => {
     </div>
   );
 };
-
-// const CountDown = () => {
-//   return (
-//     <div className="timer">
-//       <h1>FlipDown Timer</h1>
-
-//     </div>
-//   );
-// };
 
 export default CountDown;
