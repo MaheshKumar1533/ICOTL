@@ -1,13 +1,18 @@
 export const HonoraryChair = [
 {
   designation : "Honorary Chair",
-  name : "N. Vijay Bhaskar Choudary",
+  name : "N. Vijaya Bhaskar Choudary",
   address : "Correspondent, MITS, Madanapalle, AP, India"
 },
 {
   designation : "Honorary Chair",
   name : "Atsuto Suzuki",
   address : "President, Iwate Prefectural university, Japan"
+},
+{
+  designation : "Honorary Chair",
+  name : "Sanghamitra Bandyopadhyay",
+  address : "Director, Indian Statistical Institute, India"
 },
 ]
 export const GeneralChair = [
@@ -68,7 +73,7 @@ export const PublicityAndIndustryAllianceChair = [
   },
   {
     designation: "Publicity and Industry alliance Chairs",
-    name: "Venugopal Choudhury",
+    name: "Venugopal Chowdary",
     address: "MITS, India",
   },
   {
@@ -94,7 +99,7 @@ export const PublicationCoChair = [
 export const LocalOrganizingFinanceChair = [
 {
   designation : "Local Organizing & Finance Chairs",
-  name : "Sreemant Basu",
+  name : "Sreemmant Basu",
   address : "MITS, India"
 },
 {
@@ -103,7 +108,7 @@ export const LocalOrganizingFinanceChair = [
   address : "MITS, India"
 },
 ]
-export const AdvisoryCommittee = [
+export const NationalAdvisoryCommittee = [
 {
   designation : "Advisory Committee",
   name : "Keerthi Nadella",
@@ -116,20 +121,48 @@ export const AdvisoryCommittee = [
 },
 {
   designation : "Advisory Committee",
-  name : "Yo-Ping Huang",
-  address : "National Taipei University of Technology, Taiwan"
+  name : "B. Uma Shankar",
+  address : "Indian Statistical Institute, India"
 },
 {
   designation : "Advisory Committee",
-  name : "Hideyuki Takagi",
-  address : "Kyushu University, Japan"
+  name : "Surendiran B",
+  address : "National Institute of Technology, Puducherry, India"
 },
 {
   designation : "Advisory Committee",
-  name : "Takako Hashimoto",
-  address : "Chiba University of Commerce, Japan"
+  name : "S Karthik",
+  address : "SNS College of Technology, India"
 },
+
 ]
+export const InternationalAdvisoryCommittee = [
+  {
+    designation : "Advisory Committee",
+    name : "Yo-Ping Huang",
+    address : "National Taipei University of Technology, Taiwan"
+  },
+  {
+    designation : "Advisory Committee",
+    name : "Hideyuki Takagi",
+    address : "Kyushu University, Japan"
+  },
+  {
+    designation : "Advisory Committee",
+    name : "Takako Hashimoto",
+    address : "Chiba University of Commerce, Japan"
+  },
+  {
+    designation : "Advisory Committee",
+    name : "Vinod A Prasad",
+    address : "Singapore Institute of Technology, Singapore"
+  },
+  {
+    designation : "Advisory Committee",
+    name : "Rage Uday Kiran",
+    address : "University of Aizu, Aizu-Wakamatsu, Japan"
+  },
+  ]
 export const RegistrationChair  = [
 {
   designation : "Registration Chairs",

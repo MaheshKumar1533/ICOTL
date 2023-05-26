@@ -6,24 +6,18 @@ import homePageImages2 from "../../assets/mits.png";
 import homePageImages3 from "../../assets/iwate.png";
 import homePageImages4 from "../../assets/cyut.png"
 
-import lalbagh from "../../assets/LalbaghBotanicalGarden.jpg";
-import cubbon from "../../assets/cubbon.jpg";
 import iskcon from "../../assets/iskcontemples.jpg";
 import bengaluruPalace from "../../assets/bengaluruPalace.jpg";
 import vidhana from "../../assets/vidhana.jpg";
-import mary from "../../assets/mary.jpg";
 import spaceCenter from "../../assets/spaceCenter.jpg";
-import JNplanetarium from "../../assets/JNplanetarium.jpg";
 
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-import ListSubheader from "@mui/material/ListSubheader";
-import IconButton from "@mui/material/IconButton";
-import InfoIcon from "@mui/icons-material/Info";
 import CountDown from '../../components/countDown/countDown'
+import Marque from '../../components/Marquee/marquee';
 
 
 const itemData = [
@@ -92,6 +86,7 @@ export default function Home() {
             <CountDown/>
         </div>
       </div>
+      <Marque />
       <div className="homePageLogosDiv">
         <img src={homePageImages2} alt="Nature" className="homePageLogo" />
         <img src={homePageImages1} alt="Nature" className="homePageLogo" />

@@ -38,7 +38,7 @@ export default function Navbar() {
       className: "lowerNavItems",
     },
     {
-      name: "Call For Special Sesssion",
+      name: "Call For Special Session",
       path: `${appConstants.CALL_FOR_SPECIAL_SESSION}`,
       className: "lowerNavItems",
     },

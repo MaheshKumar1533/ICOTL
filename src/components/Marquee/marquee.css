@@ -1,0 +1,14 @@
+.marqueeDiv{
+    padding: 10px 0px;
+}
+
+.marqueeList{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+
+.marqueeList p{
+    color: rgb(206, 15, 15);
+    margin: 0 90px;
+}

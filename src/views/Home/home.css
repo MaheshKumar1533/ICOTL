@@ -1,6 +1,7 @@
-.homeDiv{
+.homeDiv {
   padding-bottom: 100px;
 }
+
 .HomeBgImgDiv {
   background-color: #000000 !important;
   position: relative;
@@ -10,7 +11,7 @@
 
 .homeImg {
   width: 100%;
-  min-height: 62vh;
+  min-height: 57vh;
   height: 50%;
   max-height: 65vh;
   opacity: 0.6;
@@ -31,7 +32,7 @@
   justify-content: center;
   gap: 0px;
   flex-wrap: wrap;
-  margin: 17px 0px;
+  /* margin: 17px 0px; */
 }
 
 .text-block {
@@ -46,7 +47,7 @@
   width: 100%;
 }
 
-.headingCard{
+.headingCard {
   color: #160057;
   font-size: 25px;
   font-weight: bolder;
@@ -69,7 +70,7 @@
   line-height: 25px;
   text-align: justify;
   color: #160057;
-  
+
 }
 
 .text-block p {
@@ -78,10 +79,12 @@
   color: white;
   font-family: "Major Mono Display", monospace;
 }
-.line_1{
+
+.line_1 {
   font-size: 60px !important;
 }
-.line_5{
+
+.line_5 {
   font-size: 40px !important;
 }
 
@@ -99,7 +102,7 @@
   max-height: 300px !important;
 }
 
-.bangaloreImagesDiv .title{
+.bangaloreImagesDiv .title {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -111,76 +114,98 @@
     width: 200px;
     height: 80px;
   }
-  .headingCard{
+
+  .headingCard {
     font-size: 22px;
   }
 }
+
 @media screen and (max-width: 1150px) {
-  .headingCard{
+  .headingCard {
     font-size: 21px;
   }
 }
 
+@media screen and (max-height: 600px) {
+  .text-block{
+    line-height: 8vh;
+    margin-top: 5px;
+  }
+  .line_1 {
+    font-size: 45px !important;
+  }
+  .text-block p{
+    font-size: 40px;
+  }
+  .HomeBgImgDiv{
+    height: 340px;
+  }
+}
+
 @media screen and (max-height: 550px) and (min-width: 1010px) {
+  
   .text-block p {
     font-size: 40px !important;
-}
+  }
 }
 
 @media screen and (max-width: 550px) {
-  
+
   .homeImg {
     width: 100%;
     min-height: 400px !important;
   }
-  
+
   .text-block {
     width: 400px;
   }
-  
+
   .text-block p {
     font-size: 20px;
     line-height: 40px;
   }
-  
+
   .HomePageCard {
     margin: 0 5px;
   }
-  
+
   .cardText {
     padding: 0 10px;
   }
-  
+
   .mainLetter {
     font-size: 25px;
     color: #e17800;
   }
-  .homePageLogo{
-    width : 200px;
-    height : 65px;
-    margin : 5px;
+
+  .homePageLogo {
+    width: 200px;
+    height: 65px;
+    margin: 5px;
   }
+
   .bangaloreImagesDiv {
     width: 95%;
     margin: 10px auto;
   }
 
-  .line_1{
+  .line_1 {
     font-size: 25px !important;
   }
-  .line_5{
+
+  .line_5 {
     font-size: 18px !important;
   }
 }
 
 
-.countDownDiv{
+.countDownDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   backdrop-filter: 10px;
-  margin:0 auto;
+  margin: 0 auto;
   width: fit-content;
   padding: 0px 20px !important;
 }
@@ -190,14 +215,15 @@
   opacity: 0.5;
 } */
 
-.countDownDiv label{
+.countDownDiv label {
   font-size: 25px;
   font-weight: 900;
   /* border: 2px solid #fff;   */
   padding: 0px 5px;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.countDownDiv span{
+
+.countDownDiv span {
   font-size: 25px;
   font-weight: 900;
 }
@@ -205,34 +231,39 @@
 
 
 @media screen and (max-width:1000px) and (min-width:830px) {
-  .text-block p{
+  .text-block p {
     font-size: 40px !important;
   }
 }
+
 @media screen and (max-width:830px) and (min-width:670px) {
-  .text-block p{
+  .text-block p {
     font-size: 37px !important;
   }
 }
+
 @media screen and (max-width:670px) and (min-width:530px) {
-  .text-block p{
+  .text-block p {
     font-size: 28px !important;
   }
 }
+
 @media screen and (max-width:560px) {
-  .text-block p{
+  .text-block p {
     font-size: 25px !important;
   }
 }
+
 @media screen and (max-width:600px) {
 
-  .countDownDiv label{
+  .countDownDiv label {
     padding: 3px 5px;
-  font-size: 16.5px;
-  font-weight: 600;
-}
-.countDownDiv span{
-  font-size: 16.5px;
-  font-weight: 600;
-}
+    font-size: 16.5px;
+    font-weight: 600;
+  }
+
+  .countDownDiv span {
+    font-size: 16.5px;
+    font-weight: 600;
+  }
 }
