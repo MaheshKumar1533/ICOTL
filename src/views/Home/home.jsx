@@ -81,7 +81,7 @@ export default function Home() {
               <span className="mainLetter">T</span>echniques for{" "}
               <span className="mainLetter">L</span>earning
             </p>
-            <p className="line_5">7-8 December 2023</p>
+            <p className="line_5">7-8 December 2023 (Hybrid Mode)</p>
           </div>
             <CountDown/>
         </div>
