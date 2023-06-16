@@ -33,7 +33,10 @@
 .ssPointsDiv svg{
     margin-top: 5px;
 }
-
+.thankyouNote{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 @media screen and (max-width:500px) {
     .specialSessionBody{
         width: 94%;
