@@ -12,9 +12,14 @@ import Venue from "../views/Venue/venue";
 import Access from "../views/Access/access";
 import Visa from "../views/Visa/visa";
 import SpecialSession from "../views/SpecialSession";
+import { Home as Home2k25 } from "../2k25/Components/Home";
 
 export const Router = () => {
     return useRoutes([
+      {
+        path: '/',
+        element: <Home2k25 />
+      },
       {
         path: appConstants.HOME,
         element: <Home />,

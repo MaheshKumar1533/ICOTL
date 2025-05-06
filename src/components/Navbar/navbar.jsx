@@ -7,28 +7,28 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const pathname = useLocation();
-  console.log(pathname, "fwfw");
+  const old = window.location.href.includes("2k23");
   const upperNavItemsList = [
-    {
-      name: "Home",
-      path: `${appConstants.HOME}`,
-      className: "upperNavItems",
-    },
-    {
-      name: "Important Dates",
-      path: `${appConstants.IMPORTANT_DATES}`,
-      className: "upperNavItems",
-    },
-    {
-      name: "Venue",
-      path: `${appConstants.VENUE}`,
-      className: "upperNavItems",
-    },
-    {
-      name: "Committee",
-      path: `${appConstants.ORGANIZING_COMMITTEE}`,
-      className: "upperNavItems",
-    },
+		{
+			name: "Home",
+			path: old ? "/2k23" : "/",
+			className: "upperNavItems",
+		},
+		{
+			name: "Important Dates",
+			path: old ? "/2k23/important-dates" : "",
+			className: "upperNavItems",
+		},
+		{
+			name: "Venue",
+			path: old ? "/2k23/venue" : "",
+			className: "upperNavItems",
+		},
+		{
+			name: "Committee",
+			path: old ? "/2k23/organizing-committee" : "",
+			className: "upperNavItems",
+		},
   ];
 
   const lowerNavItemsList = [
@@ -70,6 +70,45 @@ export default function Navbar() {
     },
   ];
 
+  const newlowerNavItemsList = [
+		{
+			name: "Call for Paper",
+			path: ``,
+			className: "lowerNavItems",
+		},
+		{
+			name: "Call For Special Session",
+			path: ``,
+			className: "lowerNavItems",
+		},
+		{
+			name: "Submission",
+			path: ``,
+			className: "lowerNavItems",
+		},
+
+		{
+			name: "Program",
+			path: ``,
+			className: "lowerNavItems",
+		},
+		{
+			name: "Registration",
+			path: ``,
+			className: "lowerNavItems",
+		},
+		{
+			name: "Access",
+			path: ``,
+			className: "lowerNavItems",
+		},
+		{
+			name: "Visa",
+			path: ``,
+			className: "lowerNavItems",
+		},
+  ];
+
   const handleMenuIcon = () => {
     document.querySelector(".lowerNavbar")?.classList.toggle("open");
     document.querySelector(".navbar")?.classList.toggle("open");
@@ -85,7 +124,7 @@ export default function Navbar() {
           <div className="upperNavBarLogo">
             <img className="mits_logo" src={mits_logo} />
             {/* <img className='ieee_logo' src={ieee_logo} /> */}
-            <label className="titleText">ICOTL 2k23</label>
+            <label className="titleText">ICOTL {window.location.href.includes('2k23') ? "2k23" : "2k25"}</label>
             <div></div>
           </div>
           <div>
@@ -114,7 +153,7 @@ export default function Navbar() {
         </div>
         <div className="lowerNavbar" id="lowerNavbar">
           <div className="lowerNavItemsList" id="lowerNavItemsList">
-            {lowerNavItemsList.map((navItem, index) => (
+            {old ? lowerNavItemsList.map((navItem, index) => (
               <NavLink
                 to={navItem.path}
                 key={index}
@@ -127,7 +166,19 @@ export default function Navbar() {
               >
                 {navItem.name}
               </NavLink>
-            ))}
+            )) : newlowerNavItemsList.map((navItem, index) => (
+              <NavLink
+                to={navItem.path}
+                key={index}
+                className={
+                  pathname.pathname === navItem.path
+                    ? "lowerNavItems_active"
+                    : "lowerNavItems"
+                }
+                onClick={handleMenuIcon}
+              >
+                {navItem.name}
+              </NavLink>))}
           </div>
         </div>
       </div>

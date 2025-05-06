@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { appConstants } from '../../constants/appConstants'
-import { Button, Typography } from '@mui/material'
+import { Button } from '@mui/material'
 import { Link } from 'react-router-dom'
 import EmailIcon from "@mui/icons-material/Email";
 import CloseIcon from '@mui/icons-material/Close';
