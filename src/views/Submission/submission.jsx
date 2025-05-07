@@ -63,7 +63,7 @@ export default function Submission() {
         length charges. Please check "Registration" for details.{" "} */}
       </p>
       <a
-        href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICOTL2023"
+        href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICOTL2025"
         target={"_blank"}
         className="submissionBtn"
       >

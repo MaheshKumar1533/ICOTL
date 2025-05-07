@@ -52,7 +52,7 @@ export default function Registration() {
     "Registration fees include all sessions, opening ceremony and banquet. On-site purchase of banquet tickets is not possible because restaurant advance booking is necessary. Extra banquet tickets can be purchased at the time of registration. An attendee's companion, willing to join the banquet, need to purchase a banquet ticket. Extra banquet ticket cost is 1500 INR for Indian participants and 20 USD for Non Indian participants.",
     "For paper publication, author registration is necessary. It has to be early registration, i.e., before 15 October, 2023. Late registration is possible for participation without paper. Additional 1 paper, will be allowed with an author registration. Additional page charge and additional paper fees are related to paper publication. The payment deadline is at the time of early registration.",
     "Students are encouraged to join IEEE for availing lower registration fees. Even a half-year student member is eligible for the discount rate.",
-    "The original student ID or IEEE student card may be verified at ICOTL2023 conference registration desk.",
+    "The original student ID or IEEE student card may be verified at ICOTL2025 conference registration desk.",
     "Details of the payment method will be announced soon.",
   ];
 

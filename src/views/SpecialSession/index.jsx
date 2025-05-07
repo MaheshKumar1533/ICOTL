@@ -9,7 +9,7 @@ const SpecialSession = () => {
       <p className="text">
         We are pleased to announce the invitation for proposals of special
         sessions (SS) at The First International Conference on Optimization
-        Techniques for Learning (ICOTL 2023). The conference is scheduled to
+        Techniques for Learning (ICOTL 2025). The conference is scheduled to
         take place in Bengaluru, India, from December 7 to December 8, 2023.
         Special sessions aim to provide a platform for focused discussions on
         new or emerging topics of interest within a wide range of applications
@@ -74,7 +74,7 @@ const SpecialSession = () => {
       </div>
       <p className="subTitle">Special Session Presentation Options:</p>
       <p className="text">
-        ICOTL 2023 recognizes the importance of accommodating different
+        ICOTL 2025 recognizes the importance of accommodating different
         presentation preferences. Therefore, special session organizers can
         choose between on-site or online presentation formats. This flexibility
         enables participants from around the world to engage in the conference,
@@ -101,19 +101,19 @@ const SpecialSession = () => {
           <EastIcon />
           <p>
             Ensuring that their special session adheres to the ethical standards
-            and code of conduct of ICOTL 2023
+            and code of conduct of ICOTL 2025
           </p>
         </div>
       </div>
       <p className="text">
         Proposals should be sent by email to chhsieh@gm.cyut.edu.tw by the
         specified deadline. All submissions will undergo a rigorous review
-        process by the ICOTL 2023 organizing committee, and acceptance
+        process by the ICOTL 2025 organizing committee, and acceptance
         notifications will be sent accordingly.
       </p>
       <p className="text">
         We look forward to receiving your innovative proposals and welcoming you
-        to ICOTL 2023. Together, let us explore the frontiers of optimization
+        to ICOTL 2025. Together, let us explore the frontiers of optimization
         techniques for learning and shape the future of this exciting field.
       </p>
       <p className="text">
@@ -121,7 +121,7 @@ const SpecialSession = () => {
         2023 website at <a href="icotl.in">https://icotl.in/.</a>
       </p>
       <p className="thankyouNote">
-        Best Regards, <br/> ICOTL 2023 Organizing Committee
+        Best Regards, <br/> ICOTL 2025 Organizing Committee
       </p>
     </div>
   );

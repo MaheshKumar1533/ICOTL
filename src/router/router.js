@@ -17,10 +17,6 @@ import { Home as Home2k25 } from "../2k25/Components/Home";
 export const Router = () => {
     return useRoutes([
       {
-        path: '/',
-        element: <Home2k25 />
-      },
-      {
         path: appConstants.HOME,
         element: <Home />,
       },

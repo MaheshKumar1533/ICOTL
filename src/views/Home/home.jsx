@@ -70,7 +70,7 @@ export default function Home() {
         <img src={mitsImg} alt="Nature" className="homeImg" />
         <div class="text-block">
           <div>
-            <p className="line_1">ICOTL 2023</p>
+            <p className="line_1">ICOTL 2025</p>
             <p className="line_2">
               1<sup>st </sup><span className="mainLetter">I</span>nternational{" "}
               <span className="mainLetter">C</span>onference
@@ -81,7 +81,7 @@ export default function Home() {
               <span className="mainLetter">T</span>echniques for{" "}
               <span className="mainLetter">L</span>earning
             </p>
-            <p className="line_5">7-8 December 2023 (Hybrid Mode)</p>
+            <p className="line_5">7-8 December 2025 (Hybrid Mode)</p>
           </div>
             <CountDown/>
         </div>
@@ -120,7 +120,7 @@ export default function Home() {
             <p className="cardTitle">About Conference</p>
             <div className="cardText">
               The 1st International Conference on Optimization Techniques for
-              Learning (ICOTL 2023) is a major international conference to bring
+              Learning (ICOTL 2025) is a major international conference to bring
               together researchers, engineers, and scientists from academia and
               industry working in Machine Learning and Data Science and their
               applications in different scientific, technical, and social
@@ -163,7 +163,7 @@ export default function Home() {
           </CardContent>
         </Card>
         <div className="bangaloreImagesDiv">
-          <p className="title">About Bengaluru</p>
+          <p className="title">About Madanapalle</p>
           <ImageList>
             {/* <ImageListItem key="Subheader" cols={2}></ImageListItem> */}
             {itemData.map((item) => (

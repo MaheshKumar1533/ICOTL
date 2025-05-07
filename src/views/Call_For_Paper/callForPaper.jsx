@@ -35,8 +35,8 @@ export default function CallForPaper() {
         invited to submit the full manuscript (maximum 6 pages including
         references) of their technical paper for oral presentation. Papers in
         pdf format may be uploaded via the web using the system at:
-        <a href="https://cmt3.research.microsoft.com/ICOTL2023" target="_blank">
-          https://cmt3.research.microsoft.com/ICOTL2023.
+        <a href="https://cmt3.research.microsoft.com/ICOTL2025" target="_blank">
+          https://cmt3.research.microsoft.com/ICOTL2025.
         </a>{" "}
         The authors need to open an account in CMT for paper submission.
         Accepted papers will be published in the conference proceedings with an
@@ -45,7 +45,7 @@ export default function CallForPaper() {
       </p>
       <br />
       <Typography variant="h5" style={{ marginBottom: 15 }}>
-        ICOTL 2023 topics include but not limited to the following:
+        ICOTL 2025 topics include but not limited to the following:
       </Typography>
       <div>
         {topics.map((topic) => (

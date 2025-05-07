@@ -7,26 +7,25 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const pathname = useLocation();
-  const old = window.location.href.includes("2k23");
   const upperNavItemsList = [
 		{
 			name: "Home",
-			path: old ? "/2k23" : "/",
+			path: "/",
 			className: "upperNavItems",
 		},
 		{
-			name: "Important Dates",
-			path: old ? "/2k23/important-dates" : "",
+			name: "Important Dates",			
+      path: "/important-dates",
 			className: "upperNavItems",
 		},
 		{
 			name: "Venue",
-			path: old ? "/2k23/venue" : "",
+			path: "/venue",
 			className: "upperNavItems",
 		},
 		{
 			name: "Committee",
-			path: old ? "/2k23/organizing-committee" : "",
+			path: "/organizing-committee",
 			className: "upperNavItems",
 		},
   ];
@@ -68,45 +67,6 @@ export default function Navbar() {
       path: `${appConstants.VISA}`,
       className: "lowerNavItems",
     },
-  ];
-
-  const newlowerNavItemsList = [
-		{
-			name: "Call for Paper",
-			path: ``,
-			className: "lowerNavItems",
-		},
-		{
-			name: "Call For Special Session",
-			path: ``,
-			className: "lowerNavItems",
-		},
-		{
-			name: "Submission",
-			path: ``,
-			className: "lowerNavItems",
-		},
-
-		{
-			name: "Program",
-			path: ``,
-			className: "lowerNavItems",
-		},
-		{
-			name: "Registration",
-			path: ``,
-			className: "lowerNavItems",
-		},
-		{
-			name: "Access",
-			path: ``,
-			className: "lowerNavItems",
-		},
-		{
-			name: "Visa",
-			path: ``,
-			className: "lowerNavItems",
-		},
   ];
 
   const handleMenuIcon = () => {
@@ -153,7 +113,7 @@ export default function Navbar() {
         </div>
         <div className="lowerNavbar" id="lowerNavbar">
           <div className="lowerNavItemsList" id="lowerNavItemsList">
-            {old ? lowerNavItemsList.map((navItem, index) => (
+            {lowerNavItemsList.map((navItem, index) => (
               <NavLink
                 to={navItem.path}
                 key={index}
@@ -166,19 +126,7 @@ export default function Navbar() {
               >
                 {navItem.name}
               </NavLink>
-            )) : newlowerNavItemsList.map((navItem, index) => (
-              <NavLink
-                to={navItem.path}
-                key={index}
-                className={
-                  pathname.pathname === navItem.path
-                    ? "lowerNavItems_active"
-                    : "lowerNavItems"
-                }
-                onClick={handleMenuIcon}
-              >
-                {navItem.name}
-              </NavLink>))}
+            ))}
           </div>
         </div>
       </div>
