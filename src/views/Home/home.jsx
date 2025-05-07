@@ -72,7 +72,7 @@ export default function Home() {
           <div>
             <p className="line_1">ICOTL 2025</p>
             <p className="line_2">
-              1<sup>st </sup><span className="mainLetter">I</span>nternational{" "}
+              <span className="mainLetter">I</span>nternational{" "}
               <span className="mainLetter">C</span>onference
             </p>
             <p className="line_3"> on </p>
@@ -81,7 +81,7 @@ export default function Home() {
               <span className="mainLetter">T</span>echniques for{" "}
               <span className="mainLetter">L</span>earning
             </p>
-            <p className="line_5">7-8 December 2025 (Hybrid Mode)</p>
+            <p className="line_5">Date to be announced</p>
           </div>
             <CountDown/>
         </div>

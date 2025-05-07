@@ -46,27 +46,26 @@ export default function Navbar() {
       path: `${appConstants.SUBMISSION}`,
       className: "lowerNavItems",
     },
-
-    {
-      name: "Program",
-      path: `${appConstants.PROGRAM}`,
-      className: "lowerNavItems",
-    },
+    // {
+    //   name: "Program",
+    //   path: `${appConstants.PROGRAM}`,
+    //   className: "lowerNavItems",
+    // },
     {
       name: "Registration",
       path: `${appConstants.REGISTRATION}`,
       className: "lowerNavItems",
     },
-    {
-      name: "Access",
-      path: `${appConstants.ACCESS}`,
-      className: "lowerNavItems",
-    },
-    {
-      name: "Visa",
-      path: `${appConstants.VISA}`,
-      className: "lowerNavItems",
-    },
+    // {
+    //   name: "Access",
+    //   path: `${appConstants.ACCESS}`,
+    //   className: "lowerNavItems",
+    // },
+    // {
+    //   name: "Visa",
+    //   path: `${appConstants.VISA}`,
+    //   className: "lowerNavItems",
+    // },
   ];
 
   const handleMenuIcon = () => {
