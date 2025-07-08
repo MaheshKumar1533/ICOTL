@@ -23,11 +23,11 @@ export default function Navbar() {
 			path: "/venue",
 			className: "upperNavItems",
 		},
-		{
-			name: "Committee",
-			path: "/organizing-committee",
-			className: "upperNavItems",
-		},
+		// {
+		// 	name: "Committee",
+		// 	path: "/organizing-committee",
+		// 	className: "upperNavItems",
+		// },
   ];
 
   const lowerNavItemsList = [
