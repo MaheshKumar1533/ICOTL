@@ -70,7 +70,7 @@ export default function Home() {
         <img src={mitsImg} alt="Nature" className="homeImg" />
         <div class="text-block">
           <div>
-            <p className="line_1">ICOTL 2025</p>
+            <p className="line_1">ICOTL 2026</p>
             <p className="line_2">
               <span className="mainLetter">I</span>nternational{" "}
               <span className="mainLetter">C</span>onference
