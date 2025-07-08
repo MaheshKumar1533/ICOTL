@@ -4,7 +4,7 @@ import "./home.css"
 const Home = () => {
     return (
 		<div className="hero">
-			<h1>ICOTL - 2k25</h1>
+			<h1>ICOTL - 2k26</h1>
 			<h2>
 				International Conference on Optimization Techniques for Learning
 			</h2>

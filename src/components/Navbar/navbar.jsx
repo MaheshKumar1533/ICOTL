@@ -83,7 +83,7 @@ export default function Navbar() {
           <div className="upperNavBarLogo">
             <img className="mits_logo" src={mits_logo} />
             {/* <img className='ieee_logo' src={ieee_logo} /> */}
-            <label className="titleText">ICOTL {window.location.href.includes('2k23') ? "2k23" : "2k25"}</label>
+            <label className="titleText">ICOTL {window.location.href.includes('2k23') ? "2k23" : "2k26"}</label>
             <div></div>
           </div>
           <div>
