@@ -4,21 +4,21 @@ import FlipCountdown from "@rumess/react-flip-countdown";
 import { setRef } from "@mui/material";
 
 const CountDown = () => {
-	const countToDate = new Date("December 06, 2023 23:59:59");
+	const countToDate = new Date("March 05, 2025 23:59:59");
 	let previousTimeBetweenDates;
 
-	// useEffect(() => {
-	// 	const interval = setInterval(() => {
-	// 		const currentDate = new Date();
-	// 		const timeBetweenDates = Math.ceil(
-	// 			(countToDate - currentDate) / 1000
-	// 		);
-	// 		flipAllCards(timeBetweenDates);
-	// 		previousTimeBetweenDates = timeBetweenDates;
-	// 	}, 250);
+	useEffect(() => {
+		const interval = setInterval(() => {
+			const currentDate = new Date();
+			const timeBetweenDates = Math.ceil(
+				(countToDate - currentDate) / 1000
+			);
+			flipAllCards(timeBetweenDates);
+			previousTimeBetweenDates = timeBetweenDates;
+		}, 250);
 
-	// 	return () => clearInterval(interval);
-	// }, []);
+		return () => clearInterval(interval);
+	}, []);
 
 	function flipAllCards(time) {
 		const seconds = time % 60;

@@ -81,7 +81,7 @@ export default function Home() {
               <span className="mainLetter">T</span>echniques for{" "}
               <span className="mainLetter">L</span>earning
             </p>
-            <p className="line_5">Date to be announced</p>
+            <p className="line_5">March 6<sup>th</sup> & 7<sup>th</sup></p>
           </div>
             <CountDown/>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
         <img src={homePageImages4} alt="Nature" className="homePageLogo" />
       </div>
       <div className="HomePageCard">
-      <Card
+      {/* <Card
           sx={{
             width : 1300,
             maxWidth: '97%',
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="cardText">
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
         <Card
           sx={{
             maxWidth: 1000,
