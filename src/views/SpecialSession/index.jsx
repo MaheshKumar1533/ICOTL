@@ -5,12 +5,12 @@ import EastIcon from "@mui/icons-material/East";
 const SpecialSession = () => {
   return (
     <div className="specialSessionBody">
-      <p className="title">Call for Special Session Proposals (SS) </p>
+      {/* <p className="title">Call for Special Session Proposals (SS) </p>
       <p className="text">
         We are pleased to announce the invitation for proposals of special
         sessions (SS) at The First International Conference on Optimization
-        Techniques for Learning (ICOTL 2025). The conference is scheduled to
-        take place in Bengaluru, India, from December 7 to December 8, 2023.
+        Techniques for Learning (ICOTL 2026). The conference is scheduled to
+        take place in Bengaluru, India, from March 6 to March 7, 2026.
         Special sessions aim to provide a platform for focused discussions on
         new or emerging topics of interest within a wide range of applications
         of optimization techniques in models and training algorithms. The SS
@@ -28,19 +28,19 @@ const SpecialSession = () => {
       <div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p> Proposal Submission Deadline: July 1, 2023</p>
+          <p> Proposal Submission Deadline: yet to announce</p>
         </div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p>Notification of Acceptance: July 8, 2023</p>
+          <p>Notification of Acceptance: yet to announce</p>
         </div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p> Full Paper Submission Deadline: July 30, 2023</p>
+          <p> Full Paper Submission Deadline: yet to announce</p>
         </div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p>Conference Dates: December 7-8, 2023</p>
+          <p>Conference Dates: March 6-7, 2026</p>
         </div>
       </div>
 
@@ -74,7 +74,7 @@ const SpecialSession = () => {
       </div>
       <p className="subTitle">Special Session Presentation Options:</p>
       <p className="text">
-        ICOTL 2025 recognizes the importance of accommodating different
+        ICOTL 2026 recognizes the importance of accommodating different
         presentation preferences. Therefore, special session organizers can
         choose between on-site or online presentation formats. This flexibility
         enables participants from around the world to engage in the conference,
@@ -101,28 +101,29 @@ const SpecialSession = () => {
           <EastIcon />
           <p>
             Ensuring that their special session adheres to the ethical standards
-            and code of conduct of ICOTL 2025
+            and code of conduct of ICOTL 2026
           </p>
         </div>
       </div>
       <p className="text">
         Proposals should be sent by email to chhsieh@gm.cyut.edu.tw by the
         specified deadline. All submissions will undergo a rigorous review
-        process by the ICOTL 2025 organizing committee, and acceptance
+        process by the ICOTL 2026 organizing committee, and acceptance
         notifications will be sent accordingly.
       </p>
       <p className="text">
         We look forward to receiving your innovative proposals and welcoming you
-        to ICOTL 2025. Together, let us explore the frontiers of optimization
+        to ICOTL 2026. Together, let us explore the frontiers of optimization
         techniques for learning and shape the future of this exciting field.
       </p>
       <p className="text">
         For further updates and detailed information, please visit the ICOTL
-        2023 website at <a href="icotl.in">https://icotl.in/.</a>
+        2026 website at <a href="icotl.in">https://icotl.in/.</a>
       </p>
       <p className="thankyouNote">
-        Best Regards, <br/> ICOTL 2025 Organizing Committee
-      </p>
+        Best Regards, <br/> ICOTL 2026 Organizing Committee
+      </p> */}
+      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
     </div>
   );
 };

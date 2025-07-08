@@ -58,6 +58,7 @@ export default function Registration() {
 
   return (
     <div className="registrationBody">
+      <div style={{display: 'none'}}>
       <div className="tableTitle">
         <label>Early Bird Registration</label>
         <p>(Authors need early bird registration)</p>
@@ -184,6 +185,9 @@ export default function Registration() {
           </ListItem>
         ))}
       </List>
+      </div>
+      
+      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
     </div>
   );
 }

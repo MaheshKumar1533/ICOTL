@@ -22,7 +22,7 @@ export default function CallForPaper() {
 
   return (
     <div className="callForPaper">
-      <Typography className="posterDownload">
+      {/* <Typography className="posterDownload">
         One page poster about ICOTL Conference is{" "}
         <a href={ICOTLPoster} download style={{ color: "orange" }}>
           here
@@ -54,7 +54,9 @@ export default function CallForPaper() {
             <p>{topic}</p>
           </div>
         ))}
-      </div>
+      </div> */}
+      
+      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
     </div>
   );
 }

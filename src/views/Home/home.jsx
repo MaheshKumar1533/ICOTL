@@ -22,8 +22,8 @@ import Marque from '../../components/Marquee/marquee';
 
 const itemData = [
   {
-    img: bengaluruPalace,
-    title: "Bengaluru Palace",
+    img: "/horsleyhills.jpg",
+    title: "Horsley Hills",
     // subtitle: " Rs 230 for Indians and Rs 460 for foreigners",
   },
   // {
@@ -32,20 +32,20 @@ const itemData = [
   //   subtitle: "Open from 10 AM to 5 PM",
   // },
   {
-    img: vidhana,
-    title: "Vidhana Soudha",
+    img: "/mits.webp",
+    title: "Madanapalle Institute of Technology and Science",
     // subtitle: "The largest legislative building in India",
   },
-  {
-    img: spaceCenter,
-    title: "HAL Heritage Centre and Aerospace Museum",
-    // subtitle: "Open from 9 AM to 5 PM",
-  },
-  {
-    img: iskcon,
-    title: "ISKCON Temple",
-    // subtitle: "Krishna Hill, Rajaji Nagar.",
-  },
+  // {
+  //   img: spaceCenter,
+  //   title: "HAL Heritage Centre and Aerospace Museum",
+  //   // subtitle: "Open from 9 AM to 5 PM",
+  // },
+  // {
+  //   img: iskcon,
+  //   title: "ISKCON Temple",
+  //   // subtitle: "Krishna Hill, Rajaji Nagar.",
+  // },
   // {
   //   img: lalbagh,
   //   title: " Lalbagh Botanical Garden",
@@ -89,9 +89,9 @@ export default function Home() {
       <Marque />
       <div className="homePageLogosDiv">
         <img src={homePageImages2} alt="Nature" className="homePageLogo" />
-        <img src={homePageImages1} alt="Nature" className="homePageLogo" />
+        {/* <img src={homePageImages1} alt="Nature" className="homePageLogo" />
         <img src={homePageImages3} alt="Nature" className="homePageLogo" />
-        <img src={homePageImages4} alt="Nature" className="homePageLogo" />
+        <img src={homePageImages4} alt="Nature" className="homePageLogo" /> */}
       </div>
       <div className="HomePageCard">
       {/* <Card

@@ -6,6 +6,7 @@ import Link from "@mui/material";
 export default function Submission() {
   return (
     <div className="submission">
+      <div style={{display: 'none'}}>
       <p className="title">Paper Submission</p>
       <p className="submissionNote">
         You are welcome to present your latest works on optimization techniques
@@ -69,6 +70,9 @@ export default function Submission() {
       >
         Submit Your Paper
       </a>
+      </div>
+      
+      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
     </div>
   );
 }

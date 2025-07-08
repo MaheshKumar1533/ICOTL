@@ -4,7 +4,7 @@ import FlipCountdown from "@rumess/react-flip-countdown";
 import { setRef } from "@mui/material";
 
 const CountDown = () => {
-	const countToDate = new Date("March 05, 2025 23:59:59");
+	const countToDate = new Date("March 05, 2026 23:59:59");
 	let previousTimeBetweenDates;
 
 	useEffect(() => {
