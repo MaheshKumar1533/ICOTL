@@ -28,10 +28,12 @@ body {
 }
 
 .mits_logo {
-  width: 78px;
+  /* width: 78px; */
+  position: relative;
+  top: 10px;
   height: 78px;
-  border-radius: 50px;
-  box-shadow: 0px 0px 1px 1px #b7b7b7;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 1px #ff8747;
   border: 5px solid white;
   margin-top: 25px !important;
 }

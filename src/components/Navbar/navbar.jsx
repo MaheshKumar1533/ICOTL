@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { appConstants } from "../../constants/appConstants";
-import mits_logo from "../../assets/mitsLogo.jpeg";
+import mits_logo from "../../assets/mitsLogo.jpg";
 import Typography from "@mui/material/Typography";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
@@ -46,26 +46,26 @@ export default function Navbar() {
       path: `${appConstants.SUBMISSION}`,
       className: "lowerNavItems",
     },
-    // {
-    //   name: "Program",
-    //   path: `${appConstants.PROGRAM}`,
-    //   className: "lowerNavItems",
-    // },
+    {
+      name: "Program",
+      path: `${appConstants.PROGRAM}`,
+      className: "lowerNavItems",
+    },
     {
       name: "Registration",
       path: `${appConstants.REGISTRATION}`,
       className: "lowerNavItems",
     },
-    // {
-    //   name: "Access",
-    //   path: `${appConstants.ACCESS}`,
-    //   className: "lowerNavItems",
-    // },
-    // {
-    //   name: "Visa",
-    //   path: `${appConstants.VISA}`,
-    //   className: "lowerNavItems",
-    // },
+    {
+      name: "Access",
+      path: `${appConstants.ACCESS}`,
+      className: "lowerNavItems",
+    },
+    {
+      name: "Visa",
+      path: `${appConstants.VISA}`,
+      className: "lowerNavItems",
+    },
   ];
 
   const handleMenuIcon = () => {
@@ -83,9 +83,9 @@ export default function Navbar() {
           <div className="upperNavBarLogo">
             <img className="mits_logo" src={mits_logo} />
             {/* <img className='ieee_logo' src={ieee_logo} /> */}
-            <label className="titleText">ICOTL {window.location.href.includes('2k23') ? "2k23" : "2k26"}</label>
             <div></div>
           </div>
+            <label className="titleText">ICOTL {window.location.href.includes('2k23') ? "2k23" : "2k26"}</label>
           <div>
             <div className="upperNavItemsList">
               {upperNavItemsList.map((navItem, index) => (

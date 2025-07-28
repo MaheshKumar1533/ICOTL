@@ -5,12 +5,12 @@ import EastIcon from "@mui/icons-material/East";
 const SpecialSession = () => {
   return (
     <div className="specialSessionBody">
-      {/* <p className="title">Call for Special Session Proposals (SS) </p>
+      <p className="title">Call for Special Session Proposals (SS) </p>
       <p className="text">
         We are pleased to announce the invitation for proposals of special
         sessions (SS) at The First International Conference on Optimization
         Techniques for Learning (ICOTL 2026). The conference is scheduled to
-        take place in Bengaluru, India, from March 6 to March 7, 2026.
+        take place in Madanapalle, India, from March 6 to March 7, 2026.
         Special sessions aim to provide a platform for focused discussions on
         new or emerging topics of interest within a wide range of applications
         of optimization techniques in models and training algorithms. The SS
@@ -28,15 +28,15 @@ const SpecialSession = () => {
       <div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p> Proposal Submission Deadline: yet to announce</p>
+          <p> Proposal Submission Deadline: 30<sup>th</sup> September 2025</p>
         </div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p>Notification of Acceptance: yet to announce</p>
+          <p>Notification of Acceptance: 30<sup>th</sup> January 2026</p>
         </div>
         <div className="ssPointsDiv">
           <EastIcon />
-          <p> Full Paper Submission Deadline: yet to announce</p>
+          <p> Full Paper Submission Deadline: 8<sup>th</sup> December 2025</p>
         </div>
         <div className="ssPointsDiv">
           <EastIcon />
@@ -121,9 +121,8 @@ const SpecialSession = () => {
         2026 website at <a href="icotl.in">https://icotl.in/.</a>
       </p>
       <p className="thankyouNote">
-        Best Regards, <br/> ICOTL 2026 Organizing Committee
-      </p> */}
-      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
+        Best Regards, <br /> ICOTL 2026 Organizing Committee
+      </p>
     </div>
   );
 };

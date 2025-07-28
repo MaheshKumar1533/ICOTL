@@ -57,7 +57,8 @@ export default function Registration() {
   ];
 
   return (
-    <div className="registrationBody">
+    //registrationBody
+    <div className="program">
       <div style={{display: 'none'}}>
       <div className="tableTitle">
         <label>Early Bird Registration</label>
@@ -187,7 +188,7 @@ export default function Registration() {
       </List>
       </div>
       
-      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
+      <PageNote />
     </div>
   );
 }

@@ -22,45 +22,23 @@ import Marque from '../../components/Marquee/marquee';
 
 const itemData = [
   {
-    img: "/horsleyhills.jpg",
-    title: "Horsley Hills",
-    // subtitle: " Rs 230 for Indians and Rs 460 for foreigners",
-  },
-  // {
-  //   img: cubbon,
-  //   title: "Cubbon Park Bengaluru",
-  //   subtitle: "Open from 10 AM to 5 PM",
-  // },
-  {
     img: "/mits.webp",
     title: "Madanapalle Institute of Technology and Science",
     // subtitle: "The largest legislative building in India",
   },
-  // {
-  //   img: spaceCenter,
-  //   title: "HAL Heritage Centre and Aerospace Museum",
-  //   // subtitle: "Open from 9 AM to 5 PM",
-  // },
-  // {
-  //   img: iskcon,
-  //   title: "ISKCON Temple",
-  //   // subtitle: "Krishna Hill, Rajaji Nagar.",
-  // },
-  // {
-  //   img: lalbagh,
-  //   title: " Lalbagh Botanical Garden",
-  //   subtitle: "Mavalli, Bengaluru",
-  // },
-  // {
-  //   img: mary,
-  //   title: "St. Mary's Basilica, Bengaluru",
-  //   subtitle: "Open from 6 AM to 8 PM",
-  // },
-  // {
-  //   img: JNplanetarium,
-  //   title: "Jawaharlal Nehru Planetarium",
-  //   subtitle: "Sky Theatre show",
-  // },
+  {
+    img: "/horsleyhills.jpg",
+    title: "Horsley Hills",
+    // subtitle: " Rs 230 for Indians and Rs 460 for foreigners",
+  },
+  {
+    img: "/tirupati.jpeg",
+    title: "Tirupati",
+  },
+  {
+    img: "/thalakona.jpg",
+    title: "Thalakona Waterfalls",
+  }
 ];
 
 export default function Home() {
@@ -71,7 +49,7 @@ export default function Home() {
         <div class="text-block">
           <div>
             <p className="line_1">ICOTL 2026</p>
-            <p className="line_2">
+            <p className="line_2">2<sup>nd</sup>{" "}
               <span className="mainLetter">I</span>nternational{" "}
               <span className="mainLetter">C</span>onference
             </p>
@@ -83,18 +61,19 @@ export default function Home() {
             </p>
             <p className="line_5">March 6<sup>th</sup> & 7<sup>th</sup></p>
           </div>
-            <CountDown/>
+          <CountDown />
         </div>
       </div>
       <Marque />
       <div className="homePageLogosDiv">
         <img src={homePageImages2} alt="Nature" className="homePageLogo" />
-        {/* <img src={homePageImages1} alt="Nature" className="homePageLogo" />
-        <img src={homePageImages3} alt="Nature" className="homePageLogo" />
+        <img src={homePageImages1} alt="Nature" className="homePageLogo" />
+        <img src="/aizu.svg" alt="Nature" className='homePageLogo' />
+        {/* <img src={homePageImages3} alt="Nature" className="homePageLogo" />
         <img src={homePageImages4} alt="Nature" className="homePageLogo" /> */}
       </div>
       <div className="HomePageCard">
-      {/* <Card
+        {/* <Card
           sx={{
             width : 1300,
             maxWidth: '97%',
@@ -119,8 +98,8 @@ export default function Home() {
           <CardContent>
             <p className="cardTitle">About Conference</p>
             <div className="cardText">
-              The 1st International Conference on Optimization Techniques for
-              Learning (ICOTL 2025) is a major international conference to bring
+              The 2nd International Conference on Optimization Techniques for
+              Learning (ICOTL 2026) is a major international conference to bring
               together researchers, engineers, and scientists from academia and
               industry working in Machine Learning and Data Science and their
               applications in different scientific, technical, and social

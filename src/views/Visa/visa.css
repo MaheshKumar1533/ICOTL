@@ -1,8 +1,23 @@
-.visa{
+.visa {
     margin: 50px auto;
-    width: 70%;
+    text-align: center;
+    width: 50%;
 }
 
+.visa h1 {
+    color: #e37900;
+    margin: 20px;
+}
+
+.visa p {
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.mailid {
+    color: #061d86;
+    font-weight: 700;
+}
 @media screen and (max-width:500px) {
     .visa{
         margin: 0 !important;

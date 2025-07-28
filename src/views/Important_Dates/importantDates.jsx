@@ -8,7 +8,7 @@ export default function ImportantDates() {
         <div className="uptimepointBox box1">
           <div className="date">
             <h3 className="dateTitle">
-              To be announced
+              5<sup>th</sup> August 2025
             </h3>
             <p>
               <strong>
@@ -25,7 +25,7 @@ export default function ImportantDates() {
           <div className="bottomTimebar" />
           <div className="date">
             <h3 className="dateTitle">
-              To be announced
+              30<sup>th</sup> September 2025
             </h3>
             <h3 className="">SS Submission Close</h3>
             <p>Special Session Proposal Submission Close</p>
@@ -34,7 +34,7 @@ export default function ImportantDates() {
         <div className="uptimepointBox box3">
           <div className="date">
             <h3 className="dateTitle">
-              To be announced
+              5<sup>th</sup> October 2025
             </h3>
             <h3 className="">Decision Notification</h3>
             <p>Special Session Decision Notification.</p>
@@ -47,7 +47,7 @@ export default function ImportantDates() {
           <div className="bottomTimebar" />
           <div className="date">
             <h3 className="dateTitle">
-              To be announced
+              15<sup>th</sup> December 2025
             </h3>
             <h3 className="">Manuscript Submission</h3>
             <p>Paper Submisson closes </p>
@@ -56,7 +56,7 @@ export default function ImportantDates() {
         <div className="uptimepointBox box5">
           <div className="date">
             <h3 className="dateTitle">
-              To be announced
+              30<sup>th</sup> January 2026
             </h3>
             <h3 className="">Acceptance Notification</h3>
           </div>
@@ -68,7 +68,7 @@ export default function ImportantDates() {
           <div className="bottomTimebar" />
           <div className="date">
             <h3 className="dateTitle">
-              To be announced
+              15<sup>th</sup> February 2026
             </h3>
             <h3 className="">Camera Ready Submission & </h3>
             <h3 className="">Earlybird Registration</h3>

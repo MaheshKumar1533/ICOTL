@@ -28,7 +28,7 @@ export default function CallForPaper() {
           here
         </a>{" "}
         for circulation.
-      </Typography>
+      </Typography> */}
       <p className="title">Call for Paper</p>
       <p className="cfpNote1">
         Individual submissions in the following area are invited. Authors are
@@ -45,7 +45,7 @@ export default function CallForPaper() {
       </p>
       <br />
       <Typography variant="h5" style={{ marginBottom: 15 }}>
-        ICOTL 2025 topics include but not limited to the following:
+        ICOTL 2026 topics include but not limited to the following:
       </Typography>
       <div>
         {topics.map((topic) => (
@@ -54,9 +54,7 @@ export default function CallForPaper() {
             <p>{topic}</p>
           </div>
         ))}
-      </div> */}
-      
-      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
+      </div>
     </div>
   );
 }

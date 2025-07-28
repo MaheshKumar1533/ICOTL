@@ -2,6 +2,7 @@ import React from "react";
 import "./submission.css";
 import { Typography } from "@mui/material";
 import Link from "@mui/material";
+import PageNote from '../pageNote.jsx/pageNote'
 
 export default function Submission() {
   return (
@@ -71,8 +72,8 @@ export default function Submission() {
         Submit Your Paper
       </a>
       </div>
-      
-      <div className="releasedsoon" style={{textAlign: "center"}}>Released soon</div>
+
+      <PageNote />
     </div>
   );
 }
