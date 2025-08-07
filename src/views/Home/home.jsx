@@ -59,7 +59,7 @@ export default function Home() {
               <span className="mainLetter">T</span>echniques for{" "}
               <span className="mainLetter">L</span>earning
             </p>
-            <p className="line_5">March 6<sup>th</sup> & 7<sup>th</sup></p>
+            <p className="line_5">March 6<sup>th</sup> & 7<sup>th</sup> - 2026</p>
           </div>
           <CountDown />
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
       <Marque />
       <div className="homePageLogosDiv">
         <img src={homePageImages2} alt="Nature" className="homePageLogo" />
-        <img src={homePageImages1} alt="Nature" className="homePageLogo" />
+        {/* <img src={homePageImages1} alt="Nature" className="homePageLogo" /> */}
         <img src="/aizu.svg" alt="Nature" className='homePageLogo' />
         {/* <img src={homePageImages3} alt="Nature" className="homePageLogo" />
         <img src={homePageImages4} alt="Nature" className="homePageLogo" /> */}
